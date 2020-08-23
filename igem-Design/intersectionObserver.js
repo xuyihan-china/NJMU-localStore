@@ -31,9 +31,10 @@ $(function () {
                 '-o-background-size': '100%',
                 'background-size': '100%',
             });
+            
             console.log('11')
         }
-        if (opc<=0.3) {
+        if (opc<=0.43) {
             $('.Quick-navigation').css({ 'display':'block' })
         }else{
             $('.Quick-navigation').css({ 'display':'none' })

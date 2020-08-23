@@ -1,7 +1,7 @@
 
 * {box-sizing:border-box}
 body, html {padding:0; margin:0} 
-body {background:#000000 !important; color:#fff !important;}
+body {background:#fff !important; color:#fff !important;}
 .opaque {position:absolute; top:0; left:0; right:0; bottom:0; opacity:0; background:#d2d6f1;}
 .lt-ie9 .opaque {display:none;}
 .feature {position:fixed;
@@ -39,20 +39,20 @@ mark.animate{
   }
 }
 p{
-  color :white !important;
+  color :black !important;
   font-size:23px !important;
 }
 #content{
   background:rgb(0, 0, 0);
 }
 h2{
-  color:white;
+  color:black;
 }
 h1{
   position: fixed;
   font-size: 40px;
   top:10%;
   left: 5%;
-  color: wheat;
+  color:wheat;
 }
 
