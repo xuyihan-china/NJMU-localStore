@@ -1,0 +1,237 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>iview example</title>
+    
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    
+    <script type="text/javascript" src="./vue.min.js"></script>
+    <link rel="stylesheet" href="//unpkg.com/iview/dist/styles/iview.css">
+    <link rel="stylesheet" type="text/css" href="./iview.css">
+    <script type="text/javascript" src="./iview.min.js"></script>
+    <style>
+        body {
+            height: 3000px;
+        }
+
+        .ivu-row {
+            position: fixed;
+            top: 200px;
+            left: 20px;
+        }
+
+        #ctt {
+            padding: 10% 30%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div>
+            {{matter}}
+            <menu></menu>
+            <contented></contented>
+        </div>
+    </div>
+    <template id="menu">
+        <Row>
+            <i-col span="8">
+                <Menu :theme="theme2" :accordion="true">
+                    <Submenu key="1">
+                        <template slot="title">
+                            <Icon type="ionic"></Icon>
+                            good
+                        </template>
+                        <a href="#atone">
+                            <Menu-item key="1-1">sound</Menu-item>
+                        </a>
+                        <a href="#attwo">
+                            <Menu-item key="1-2">of</Menu-item>
+                        </a>
+                        <Menu-item key="1-3">slience</Menu-item>
+                    </Submenu>
+                    <Submenu key="2">
+                        <template slot="title">
+                            <Icon type="wifi"></Icon>
+                            Contribute
+                        </template>
+                        <Menu-item key="2-1">NJMU1</Menu-item>
+                        <Menu-item key="2-2">NJMU2</Menu-item>
+                    </Submenu>
+                    <Submenu key="3">
+                        <template slot="title">
+                            <Icon type="stats-bars"></Icon>
+                            Anaylsis
+                        </template>
+                        <Menu-group title="sub2">
+                            <Menu-item key="3-1">Anaylsis1</Menu-item>
+                            <Menu-item key="3-2">Anaylsis2</Menu-item>
+                            <Menu-item key="3-3">Anaylsis3</Menu-item>
+                        </Menu-group>
+
+                    </Submenu>
+                </Menu>
+            </i-col>
+        </Row>
+        <br>
+
+    </template>
+    <template id="contented">
+        <div id="ctt">
+            <p></p>
+            <div class="lemma-summary" label-module="lemmaSummary">
+                <div class="para" label-module="para">鲁迅（1881年9月25日-1936年10月19日），原名<a target=_blank
+                        href="/item/%E5%91%A8%E6%A8%9F%E5%AF%BF/2438698" data-lemmaid="2438698">周樟寿</a>，后改名<a
+                        target=_blank href="/item/%E5%91%A8%E6%A0%91%E4%BA%BA/759212"
+                        data-lemmaid="759212">周树人</a>，原字豫山，后改豫才，曾留学日本仙台医科专门学校（肄业）。“鲁迅”是他1918年发表《<a target=_blank
+                        href="/item/%E7%8B%82%E4%BA%BA%E6%97%A5%E8%AE%B0/11577"
+                        data-lemmaid="11577">狂人日记</a>》时所用的笔名，也是他影响最为广泛的笔名，浙江<a target=_blank
+                        href="/item/%E7%BB%8D%E5%85%B4/15605" data-lemmaid="15605">绍兴</a>人。著名<a target=_blank
+                        href="/item/%E6%96%87%E5%AD%A6%E5%AE%B6/1211248" data-lemmaid="1211248">文学家</a>、<a target=_blank
+                        href="/item/%E6%80%9D%E6%83%B3%E5%AE%B6/1214475" data-lemmaid="1214475">思想家</a>、<a target=_blank
+                        href="/item/%E9%9D%A9%E5%91%BD%E5%AE%B6/418684" data-lemmaid="418684">革命家</a>、民主战士，<a
+                        target=_blank
+                        href="/item/%E4%BA%94%E5%9B%9B%E6%96%B0%E6%96%87%E5%8C%96%E8%BF%90%E5%8A%A8/1703975"
+                        data-lemmaid="1703975">五四新文化运动</a>的重要参与者，<a target=_blank
+                        href="/item/%E4%B8%AD%E5%9B%BD%E7%8E%B0%E4%BB%A3%E6%96%87%E5%AD%A6/8079915"
+                        data-lemmaid="8079915">中国现代文学</a>的奠基人。<a target=_blank
+                        href="/item/%E6%AF%9B%E6%B3%BD%E4%B8%9C/113835"
+                        data-lemmaid="113835">毛泽东</a>曾评价：“鲁迅的方向，就是中华民族新文化的方向。”<sup class="sup--normal" data-sup="1-7"
+                        data-ctrmap=":1,:2,:3,:4,:5,:6,:7,">
+                        [1-7]</sup><a class="sup-anchor" name="ref_[1-7]_8395819">&nbsp;</a>
+                </div>
+                <div class="para" label-module="para">
+                    鲁迅一生在文学创作、文学批评、思想研究、文学史研究、翻译、美术理论引进、基础科学介绍和古籍校勘与研究等多个领域具有重大贡献。他对于五四运动以后的中国社会思想文化发展具有重大影响，蜚声世界文坛，尤其在韩国、日本思想文化领域有极其重要的地位和影响，被誉为“二十世纪<a
+                        target=_blank href="/item/%E4%B8%9C%E4%BA%9A%E6%96%87%E5%8C%96/18911344"
+                        data-lemmaid="18911344">东亚文化</a>地图上占最大领土的作家”。<sup class="sup--normal" data-sup="8-10"
+                        data-ctrmap=":8,:9,:10,">
+                        [8-10]</sup><a class="sup-anchor" name="ref_[8-10]_8395819">&nbsp;</a>
+                </div>
+            </div>
+            <div class="lemmaWgt-promotion-leadPVBtn">
+            </div>
+            <div class="configModuleBanner">
+            </div>
+            <div class="lemmaWgt-focusAndRelation relations">
+                <div class="lemma-relation-title"><i>人物关系</i></div>
+                <div id="fixBox" style="right: 10px;">
+                    <div class="openFix" title="若关系内容有误，请点击纠错进行反馈">纠错</div>
+                    <div class="closeFix">关闭纠错</div>
+                </div>
+                <a href="javascript:;" class="switch left disabled"></a>
+                <a href="javascript:;" class="switch right"></a>
+                <div class="lemma-relation-module viewport" id="J-lemma-relation-module">
+                    <ul class="lemma-relation-list slider maqueeCanvas">
+                        <li class="lemma-relation-item">
+                            <a href="/item/%E6%9C%B1%E5%AE%89/4777048" nslog-type="10000302" target="_blank">
+
+                                <div class="info" title="朱安">
+                                    <span class="name">妻子</span>
+                                    <span class="title">朱安</span>
+                                </div>
+                            </a>
+                            <div class="hasErrorBox hasErrorHidden">
+                                <a class="hasError" href="">
+                                    有错误<span class="relateId" style="display:none;">4777048</span></a>
+                                <span class="hadSubError">已反馈</span>
+                            </div>
+                        </li>
+                        <li class="lemma-relation-item">
+                            <a href="/item/%E8%AE%B8%E5%B9%BF%E5%B9%B3/1362254" nslog-type="10000302" target="_blank">
+
+                                <div class="info" title="许广平">
+                                    <span class="name">妻子</span>
+                                    <span class="title">许广平</span>
+                                </div>
+                            </a>
+                            <div id="atone">
+                                <a class="hasError" href="">
+                                    有错误<span class="relateId" style="display:none;">1362254</span></a>
+                                <span class="hadSubError">已反馈</span>
+                            </div>
+                        </li>
+                        <li class="lemma-relation-item">
+                            <a href="/item/%E5%91%A8%E6%B5%B7%E5%A9%B4/2492347" nslog-type="10000302" target="_blank">
+
+                                <div class="info" title="周海婴">
+                                    <span class="name">儿子</span>
+                                    <span class="title">周海婴</span>
+                                </div>
+                            </a>
+                            <div class="hasErrorBox hasErrorHidden">
+                                <a class="hasError" href="">
+                                    有错误<span class="relateId" style="display:none;">2492347</span></a>
+                                <span class="hadSubError">已反馈</span>
+                            </div>
+                        </li>
+                        <li class="lemma-relation-item">
+                            <a href="/item/%E5%91%A8%E4%BC%AF%E5%AE%9C/4944360" nslog-type="10000302" target="_blank">
+
+                                <div class="info" title="周伯宜">
+                                    <span class="name">父亲</span>
+                                    <span class="title">周伯宜</span>
+                                </div>
+                            </a>
+                            <div class="hasErrorBox hasErrorHidden">
+                                <a class="hasError" href="">
+                                    有错误<span class="relateId" style="display:none;">4944360</span></a>
+                                <span class="hadSubError">已反馈</span>
+                            </div>
+                        </li>
+                        <li class="lemma-relation-item">
+                            <a href="/item/%E9%B2%81%E7%91%9E/11007946" nslog-type="10000302" target="_blank">
+
+                                <div class="info" title="鲁瑞">
+                                    <span class="name">母亲</span>
+                                    <span class="title">鲁瑞</span>
+                                </div>
+                            </a>
+                            <div id="attwo">
+                                <a class="hasError" href="">
+                                    有错误<span class="relateId" style="display:none;">11007946</span></a>
+                                <span class="hadSubError">已反馈</span>
+                            </div>
+                        </li>
+                </div>
+            </div>
+    </template>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                matter: 12
+            },
+            methods: {
+               
+            },
+            mounted() {
+               
+            },
+            components: {
+                menu: {
+                    template: '#menu',
+                    data() {
+                        return {
+                            
+                        }
+                    },
+                    props: {
+
+                    },
+                    methods: {
+
+                    },
+                },
+                contented: {
+                    template: '#contented'
+                }
+            }
+        })
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,971 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, <sub>max</sub>imum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="https://2019.igem.org/Team:XMU-China/css/nav?action=raw&amp;ctype=text/css">
+    <link rel="stylesheet" href="https://2019.igem.org/Team:XMU-China/css/safety?action=raw&amp;ctype=text/css">
+    <link rel="stylesheet" href="https://2019.igem.org/Team:XMU-China/css/model?action=raw&amp;ctype=text/css">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://2019.igem.org/Team:XMU-China/js/jquery?action=raw&amp;ctype=text/javascript" type="text/javascript"></script>
+    <script src="https://2019.igem.org/Team:XMU-China/js/bootstrap?action=raw&amp;ctype=text/javascript"></script>
+    <link rel="stylesheet" href="https://2019.igem.org/Team:XMU-China/css/title?action=raw&amp;ctype=text/css"> 
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [ ['$','$'], ["\\(","\\)"] ],displayMath: [ ['$$','$$'], ["\\[","\\]"] ]}});</script>
+        <script type="text/javascript" src="path-to-MathJax/MathJax.js"></script>
+        <script type="text/x-mathjax-config">
+            var mathId = document.getElementById("post-content"); //选择公式识别范围
+MathJax.Hub.Config({
+    showProcessingMessages: false, //关闭js加载过程信息
+    messageStyle: "none", //不显示信息
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ], //行内公式选择符
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ], //段内公式选择符
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code','a'] //避开某些标签
+    },
+    "HTML-CSS": {
+        availableFonts: ["STIX","TeX"], //可选字体
+        showMathMenu: false //关闭右击菜单显示
+    }
+});
+MathJax.Hub.Queue(["Typeset",MathJax.Hub,mathId]);
+</script>
+</style>
+        <script type="text/javascript">
+        if(document.documentElement.clientWidth < 750){
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 640*32 + 'px';
+            console.log(document.documentElement.clientWidth)
+        }else{
+            document.documentElement.style.fontSize = "16px";
+        }
+         
+    </script>
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML,http://myserver.com/MathJax/config/local/local.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="wrapper cf">
+                <nav id="main-nav">
+                     
+                    <ul class="second-nav">
+                        <li class="Project">
+                            <a href="#" target="_blank">PROJECT</a>
+                            <ul>
+                                <li><a href="https://2019.igem.org/Team:XMU-China/Description">Description</a></li>
+                                <li><a href="https://2019.igem.org/Team:XMU-China/Design">Design</a></li>
+                                <li><a href="https://2019.igem.org/Team:XMU-China/Results">Results</a></li>
+                                <li><a href="https://2019.igem.org/Team:XMU-China/Demonstrate">Demonstrate</a></li>
+                                <li><a href="https://2019.igem.org/Team:XMU-China/Parts">Parts</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="Model">
+                            <a href="https://2019.igem.org/Team:XMU-China/Model">MODEL</a>
+                        </li>
+                        <li class="Human_Practice">
+                            <a href="#">HUMAN PRACTICES</a>
+                            <ul>
+                                <li><a href="https://2019.igem.org/Team:XMU-China/Human_Practices">Overview</a></li>
+                                <li><a href="https://2019.igem.org/Team:XMU-China/Human_Practices#Silver">Silver</a></li>
+                                <li><a href="https://2019.igem.org/Team:XMU-China/Human_Practices#Gold">Gold</a></li>
+                                <li><a href="https://2019.igem.org/Team:XMU-China/Public_Engagement">Public Engagement</a></li>
+                                <li><a href="https://2019.igem.org/Team:XMU-China/Collaborations">Collaborations</a></li>
+                            </ul>
+                        </li>
+                        <li class="Other_Works">
+                            <a href="#">OTHER WORK</a>
+                            <ul>
+                                <li><a href="https://2019.igem.org/Team:XMU-China/Contribution">Contribution</a></li>
+                                <li><a href="https://2019.igem.org/Team:XMU-China/Improve">Improve</a></li>
+                                <li><a href="https://2019.igem.org/Team:XMU-China/Experiments">Experiment</a></li>
+                                <li><a href="https://2019.igem.org/Team:XMU-China/Notebook">Notebook</a></li>
+                                <li><a href="https://2019.igem.org/Team:XMU-China/Safety">Safety</a></li>
+                            </ul>
+                        </li>
+                        <li class="Team">
+                            <a href="#">Team</a>
+                            <ul>
+                                <li><a href="https://2019.igem.org/Team:XMU-China/Team">Members</a></li>
+                                <li><a href="https://2019.igem.org/Team:XMU-China/Attributions">Attributions</a></li>
+                                <li><a href="https://2019.igem.org/Team:XMU-China/Judging">Judging</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <a class="toggle"><span></span></a>
+            </div>
+        </header>
+    </div>
+    <script src="https://2019.igem.org/Team:XMU-China/js/mobile-nav?action=raw&amp;ctype=text/javascript"></script>
+    <div class="igem_top_bar">
+            <div class="logo">
+                                <img src="https://2019.igem.org/wiki/images/0/08/T--XMU-China--igemXMU.png">
+                <img src="https://2019.igem.org/wiki/images/d/d5/T--XMU-China--igem_icon.svg">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#"><span>TEAM</span></a>
+                                <ul>
+                            <li><a href="https://2019.igem.org/Team:XMU-China/Team">Members</a></li>
+                            <li><a href="https://2019.igem.org/Team:XMU-China/Attributions">Attributions</a></li>
+                            <li><a href="https://2019.igem.org/Team:XMU-China/Judging">Judging</a></li>
+                        </ul>
+                            </li>
+                    <li><a href="#"><span>OTHER WORK</span></a>
+                               <ul>
+                            <li><a href="https://2019.igem.org/Team:XMU-China/Contribution"><span>Contribution</span></a></li>
+                            <li><a href="https://2019.igem.org/Team:XMU-China/Improve"><span>Improve</span></a></li>
+                            <li><a href="https://2019.igem.org/Team:XMU-China/Experiments"><span>Experiments</span></a></li>
+                            <li><a href="https://2019.igem.org/Team:XMU-China/Notebook"><span>Notebook</span></a></li>
+                            <li><a href="https://2019.igem.org/Team:XMU-China/Safety"><span>Safety</span></a></li>
+                        </ul>
+                           </li>
+                    <li><a href="#"><span>HUMAN PRACTICES</span></a>
+                                <ul>
+                            <li><a href="https://2019.igem.org/Team:XMU-China/Human_Practices"><span>Overview</span></a></li>
+                            <li><a href="https://2019.igem.org/Team:XMU-China/Human_Practices#Silver"><span>Silver</span></a></li>
+                            <li><a href="https://2019.igem.org/Team:XMU-China/Human_Practices#Gold"><span>Gold</span></a></li>
+                            <li><a href="https://2019.igem.org/Team:XMU-China/Public_Engagement"><span>Public Engagement</span></a></li>
+                            <li><a href="https://2019.igem.org/Team:XMU-China/Collaborations"><span>Collaborations</span></a></li>
+                        </ul>
+                            </li>
+                    <li><a href="https://2019.igem.org/Team:XMU-China/Model"><span>MODEL</span></a> </li> 
+                    <li><a href="#"><span>PROJECT</span></a>
+                        <ul>
+                            <li><a href="https://2019.igem.org/Team:XMU-China/Description"><span>Description</span></a></li>
+                            <li><a href="https://2019.igem.org/Team:XMU-China/Design"><span>Design</span></a></li>
+                            <li><a href="https://2019.igem.org/Team:XMU-China/Results"><span>Results</span></a></li>
+                            <li><a href="https://2019.igem.org/Team:XMU-China/Demonstrate"><span>Demonstrate</span></a></li>
+                            <li><a href="https://2019.igem.org/Team:XMU-China/Parts"><span>Parts</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://2019.igem.org/Team:XMU-China"><span>HOME</span></a></li>
+                </ul>
+            </div>
+    </div>
+<div class="title">
+        <img class="top_image" src="https://2019.igem.org/wiki/images/a/ac/T--XMU-China--model.png">
+    </div>
+   
+    <div class="main">
+        <section id="Overview" class="js-scroll-step">
+                <div class="headline">
+                    Overview
+                </div>
+                <p>Synthetic biology is an engineering discipline, and this year we utilized with Process Control in Engineering to systematically analyzed the process from inducer to protein.</p>
+                <p>We divided the process into four modules: the transport process, the induction process, the transcription-translation process, and the feedback process. Through the series connection of different processes, we can get different transfer functions. Finally, the definite mathematical expression can be obtained by inverse Laplace transform.</p>
+                <p>At the same time, based on the microbial growth and production equations, given the mechanism of action of toxin proteins, we established an ODE model of co-culture under the situation of spite.</p>
+            </section>
+          
+            <section id="Process_Analysis" class="js-scroll-step">
+                <div class="headline">
+                    Process analysis of the induction system
+                </div>
+                <p>The processing analysis of indcible system can be represented by the following figure.</p>
+                <p class="F2">
+                    <img src="https://2019.igem.org/wiki/images/2/26/T--XMU-China--model-fig1.png">
+                    <p class="Figure_word"><strong>Fig. 1. Model overview </strong></p>
+                </p>
+                <p>Among them, </p>
+                <p>Transportation process: </p>
+                <p>1. Simple diffusion (e.g. IPTG) </p>
+                <p>2. Carrier-mediated transport (e.g. lactose, arabinose) </p>
+                <p>Induction process: </p>
+                <p>1. Negative regulation induction (inactivated repressor) </p>
+                <p>2. Positive regulation induction (transcription factor) </p>
+                <p>Transcription-translation process: </p>
+                <p>1. Coupling (prokaryote) </p>
+                <p>2. Non-coupling (eukaryon)</p> 
+                <p>Feedback process: </p>
+                <p>1. Positive feedback (acting on the transport process) </p>
+                <p>2. Negative feedback (acting on the inducers) </p>
+
+<div>
+                <h1>Transportation process</h1>
+                <h2>Simple diffusion</h2>
+                <p>Simple diffusion refers to the diffusion of a substance from a high concentration region to a low concentration region under the drive of concentration gradient. This process does not require the help of carrier proteins and does not consume energy. The most common inducer that can diffuse into cells in this way is IPTG(<i>1</i>).</p>
+                <p class="F5">
+                    <img src="https://2019.igem.org/wiki/images/3/3b/T--XMU-China--model-fig2.png">
+                    <p class="Figure_word"><strong>Fig. 2. Diffusion diagram </strong></p>
+                </p>
+            </div>
+
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-offset-3 col-md-6">
+                            <div id="accordion">
+                                <div class="panel">
+                                    <div class="panel-heading" role="tab" id="heading12">
+                                        <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                                    Derivation Process in Detail
+                                </a></h4>
+                                    </div>
+                                    <div id="collapse12" class="panel-collapse collapse" role="tabpanel">
+                                        <div class="panel-body">
+                                            <p> Firstly, to facilitate the analysis and calculation, all cells was described as spheres corresponding to their corresponding volume equivalent diameters de under the engineering concept (Hypothesis 1). The equivalent diameter is expressed as follows(<i>2</i>):</p>
+                                            <p>$$d_e=\sqrt[3]{\frac{6*V_p}{\pi}} \tag{1.1.1}$$</p>
+                                            <p>$V_p$: the volume of cells.</p>
+                                            <p>Secondly, the simple diffusion will reach a equilibrium state as both intracellular and extracellular concentions of inducers are the same. Since the cell volume in the solution occupies a so small proportion that the diffusion of inducers into the cell does not greatly affect the concentration in the whole solution. Therefore, it can be considered that the concentration of extracellular inducers is nearly unchanged (Hypothesis 2).</p>
+                                            <p>Meanwhile, Fick’s second law shows(<i>3</i>):</p>
+                                            <p>$$\frac{\partial c(z,t)}{\partial t}=D*\nabla^2{c(z,t)}\tag{1.1.2}$$</p>
+                                            <p>Under the spherical assumption, any surfaces of a sphere passing through the center can be regarded as the same. So the divergence of the concentration of the inducers in the sphere can be analyzed in the one-dimensional direction.</p>
+                                            <p>$$\frac{\mathrm{d}c(z,t)}{\mathrm{d}t}=D*\frac{\mathrm{d^2}c(z,t)}{\mathrm{d}z^2}\tag{1.1.3}$$</p>
+                                            <p>Inspired by the ideas of previous generations(<i>4</i>), we calculates on the basis of our assumption. The center point of the cell is set as zero, and the cell wall is d$_{e}$/2, then the one-dimensional diffusion process is shown in the figure below.</p>
+                                            <p>All kinds of restrictions in the above unsteady diffusion conditions can be listed:</p>
+                                            <p>When $t=0$, the concentrations of the inducer throughout the cell is 0:</p>
+                                            <p>$$c(z,0)=0\tag{1.1.4}$$</p>
+                                            <p>In the cell wall, the concentration of the inducer is always C$_{0}$:</p>
+                                            <p>$$c(\frac{d_e}{2},t)=C_0\tag{1.1.5}$$</p>
+                                            <p>At $z=0$, the diffusion flux of the inducer is 0, i.e., the concentration gradient is 0, no longer diffusing further. (Fick’s first law(<i>5</i>)):</p>
+                                            <p>$$\phi(0,t)=-D*\frac{\mathrm{d}c(0,t)}{\mathrm{d}z}=0\tag{1.1.6}$$</p>
+                                            <p>It can be obtained by performing Laplace Transform on (1.1.3):</p>
+                                            <p>$$s*C[z,s]-c(z,o)=D*\frac{\mathrm{d^2}C[z,s]}{\mathrm{d}z^2}\tag{1.1.7}$$</p>
+                                            <p>Substituting (1.1.4) into (1.1.7) can be obtained:</p>
+                                            <p>$$\frac{\mathrm{d^2}C[z,s]}{\mathrm{d}z^2}=\frac{s}{D}*C[z,s]\tag{1.1.8}$$</p>
+                                            <p>Let $y=C[z,s]$, $z=x$. It can be seen that the differential equation expression conforming to equation (1.1.8) is a constant coefficient homogeneous linear differential equation.</p>
+                                            <p>Firstly, testing the roots of the characteristic equation: $p^2-4q=0^2-4*-s/D=4*s/D>0$. There are two different real roots:</p>
+                                            <p>$${r}_{1}=\sqrt{\frac{s}{D}} \qquad {r}_{2}=-\sqrt{\frac{s}{D}}$$</p>
+                                            <p>So the general solution of this constant coefficient homogeneous linear differential equation is(<i>6</i>):</p>
+                                            <p>$$y=C_1*e^{\sqrt{\frac{s}{D}}*x}+C_2*e^{-\sqrt{\frac{s}{D}}*x}\tag{1.1.9}$$</p>
+                                            <p>Performing Laplace Transform on the equation (1.1.5) and the equation (1.1.6), the initial conditions of equation (1.1.9) are obtained</p>
+                                            <p>$$y\mid _{x=\frac{d_{e}}{2}}=\frac{C_{0}}{s}$$</p>
+                                            <p>$${y}'\mid _{x=0}=0$$</p>
+                                            <p>The solution:</p>
+                                            <p>$$C_{1}=C_{2}=\frac{C_{0}}{2*s}*\frac{1}{cosh(\sqrt{\frac{s}{D}}*\frac{d_{e}}{2})}$$</p>
+                                            <p>After substituting into equation (1.1.9), the Laplace Transform of the concentration function of the inducer at the position z is as follows:</p>
+                                            <p>$$C[z,s]=\frac{C_0}{s}*\frac{\mathrm{cosh}(\sqrt{\frac{s}{d}}*z)}{\mathrm{cosh}(\sqrt{\frac{s}{D}}*\frac{d_e}{2})}\tag{1.1.10}$$</p>
+                                            <p>And the transfer function at the intracellular position $z$ with respect to the extracellular concentration is as follows:</p>
+                                            <p>$$\frac{C[z,s]}{C_0}=\frac{1}{s}*\frac{\mathrm{cosh}(\sqrt{\frac{s}{D}}*z)}{\mathrm{cosh}(\sqrt{\frac{s}{D}}*\frac{d_e}{2})}\tag{1.1.11}$$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div >
+                <p>The transfer function at the intracellular position $z$ with respect to the extracellular concentration is as follows:</p>
+                <p>$$\frac{C[z,s]}{C_0}=\frac{1}{s}*\frac{\mathrm{cosh}(\sqrt{\frac{s}{D}}*z)}{\mathrm{cosh}(\sqrt{\frac{s}{D}}*\frac{d_e}{2})}\tag{1.1.11}$$</p>
+                <h1>Carrier-mediated transport</h1>
+                <p>Carrier-mediated describes the transport process with the assistance of carrier protein (also known as permeases). This kind of chemical infiltration model is the most widely used. Such common inducers include lactose(<i>7</i>) and arabinose(<i>8</i>).</p>
+                 </div>
+                <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-offset-3 col-md-6">
+                            <div id="accordion">
+                                <div class="panel">
+                                    <div class="panel-heading" role="tab" id="heading13">
+                                        <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                                    Derivation Process in Detail
+                                </a></h4>
+                                    </div>
+                                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel">
+                                        <div class="panel-body">
+                                            <p>The dynamics of the model is described as follows:</p>
+                                            <p>$$C_{out}+T{{k_{+1}\atop\rightharpoonup}\atop{\leftharpoondown\atop k_{-1}}}CT{{k_{+2}\atop\rightharpoonup}\atop{\leftharpoondown\atop k_{-2}}}C_{in}+T\quad{[1]}$$</p>
+                                            <p>$$C_{in}\stackrel{k_3}{\rightarrow}\emptyset\quad{[2]}$$</p>
+                                            <p>The following tasks are to be accomplished:</p>
+                                            <p>$C_{out}$: the concentration of the extracellular inducer.</p>
+                                            <p>$C_{in}$: the concentration of the intracellular inducer.</p>
+                                            <p>$T$: the carrier protein.</p>
+                                            <p>And the intracellular inducer will be consumed by cells at the rate constant of $k_3$.</p>
+                                            <p>Expression pattern of transport process is the same as enzymatic reaction. Therefore, the ‘pre-steady state’ hypothesis in the enzymatic reaction kinetics derivation can be used as a reference (Hypothesis 3). And as the the initial concentration of $C_{in}$ is so small that the reaction $C_{in}+T \stackrel{k_{-2}}{\rightarrow}CP$ can be ignored (Hypothesis 4) (<i>9</i>). So the chemical formula [1] can be rewritten as:</p>
+                                            <p>$$C_{out}+T{{k_{+1}\atop\rightharpoonup}\atop{\leftharpoondown\atop k_{-1}}}CT \stackrel{k_{2}}{\rightarrow}C_{in}+T\quad{[3]}$$</p>
+                                            <p>Under the 'pre-steady state' assumption:</p>
+                                            <p>$$\frac{\mathrm{d}[CT]}{\mathrm{d}t}=k_{+1}*[C_{out}]*[T]-k_{-1}*[CT]-k_2*[CT]=0\tag{1.2.1}$$</p>
+                                            <p>The relationship between $[CT]$ and $[C_{out}]$ and $[T]$ can be obtained:</p>
+                                            <p>$$[CT]=\frac{[C_{out}]*[T]}{K}\tag{1.2.2}$$</p>
+                                            <p>$$K_{steady}=\frac{k_{-1}+k_{2}}{k_{+1}}$$</p>
+                                            <p>Also know:</p>
+                                            <p>$$\frac{\mathrm{d}[C_{in}]}{\mathrm{d}t}=k_2*[CT]-k_3*[C_{in}]\tag{1.2.3}$$</p>
+                                            <p>Substitute equation (1.2.2) into equation (1.2.3) and get:</p>
+                                            <p>$$\frac{\mathrm{d}[C_{in}]}{\mathrm{d}t}=\frac{k_2*[C_{out}]*[T]}{K}-k_3*[C_{in}]\tag{1.2.4}$$</p>
+                                            <p>It can be seen that there are two input variables. For the convenience of calculation, assume that one of them remains unchanged. The two hypotheses have different applicable conditions and uses. Then both will be detailed on by on.</p>
+                                            <p>Assuming that $[C_{out}]$ is unchanged (Hypothesis 5), the Laplace transform of equation (1.2.4) can be obtained as follows:</p>
+                                            <p>$$s*C_{in}[s]-C_{in}(0)=\frac{k_2*[C_{out}]*T[s]}{K}-k_3*C_{in}[s]\tag{1.2.5}$$</p>
+                                            <p>$C_{in}(0)=0$ and $[C_{out}]$ is a constant.</p>
+                                            <p>This equation is suitable for the early stage of induction, and the significance is that the carrier protein is the input signal of the next module, which can be used to the position feedback input signal of the feedback module.</p>
+                                            <p>The transfer function of intracellular concentration on the carrier protein is as follows:</p>
+                                            <p>$$\frac{C_{in}[s]}{T[s]}=\frac{k_2*[C_{out}]}{(k_3+s)*K}\tag{1.2.6}$$</p>
+                                            <p>If assuming that $[T]$ (the number of carrier protein) is unchanged (Hypothesis 6), then perform the Laplace Transform on the equation (1.2.4):</p>
+                                            <p>$$s*C_{in}[s]-C_{in}(0)=\frac{k_2*C_{out}[s]*[T]}{K}-k_3*C_{in}[s]\tag{1.2.7}$$</p>
+                                            <p>$C_{in}(0)=0$ and $[T]$ is a constant.</p>
+                                            <p>The formula is applicable when the extracellular concentration is higher than the intracellular concentration, and this condition can be artificially added. The significance is that the extracellular concentration is the input signal of the next module and the carrier protein is unchanged, which can be used to provide more accurate analysis in the feedback module such as negative feedback.</p>
+                                            <p>The transfer function of intracellular concentration on the extracellular inducer is as follows:</p>
+                                            <p>$$\frac{C_{in}[s]}{C_{out}[s]}=\frac{k_2*[T]}{(k_3+s)*K}\tag{1.2.8}$$</p>
+                                            <p>It can be found, the equation (1.2.6)and the equation (1.2.8) are both first-order inertia(<i>10</i>).</p>
+                                            <p>Additionally, the equilibrium state hypothesis of the Mie equation also has its practical significance. The balance result is as follows:</p>
+                                            <p>$$k_{+1}*[C_{out}]*[T]=k_{-1}*[CT]\tag{1.2.9}$$</p>
+                                            <p>It only affects the K, changing from $K_{steady}$ to $K_{equilibrium}$:</p>
+                                            <p>$$K_{equilibrium}=\frac{k_{-1}}{k_{+1}}$$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>The transfer function of intracellular concentration on the carrier protein is as follows:</p>
+                <p>$$\frac{C_{in}[s]}{T[s]}=\frac{k_2*[C_{out}]}{(k_3+s)*K}\tag{1.2.6}$$</p>
+                <p>The transfer function of intracellular concentration on the extracellular inducer is as follows:</p>
+                <p>$$\frac{C_{in}[s]}{C_{out}[s]}=\frac{k_2*[T]}{(k_3+s)*K}\tag{1.2.8}$$</p>
+                <h1>Induction Process</h1>
+                <h2>1. Negative Regulation Induction</h2>
+                <p>For negative inducible system such as lac operon and ara operon, both of them need the entrance of inducers from extracellular environment into cell and bind with inhibitor, which makes conformation change of inhibitor so that inhibitor can`t maintain its binding with operator, thus start the expression of downstream genes(<i>11</i>).</p>
+                <p>The specific process of the above negative regulation system after the inducer enters the cell can be diassembled as follows:</p>
+                <p class="F2">
+                    <img src="https://2019.igem.org/wiki/images/0/0b/T--XMU-China--model-fig3.png">
+                    <p class="Figure_word"><strong>Fig. 3. Process decomposition diagram of negative regulation system </strong></p>
+                </p>              
+             </div>
+             <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-offset-3 col-md-6">
+                            <div id="accordion">
+                                <div class="panel">
+                                    <div class="panel-heading" role="tab" id="heading14">
+                                        <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                                    Derivation Process in Detail
+                                </a></h4>
+                                    </div>
+                                    <div id="collapse14" class="panel-collapse collapse" role="tabpanel">
+                                        <div class="panel-body">
+                                            <p>The description of the dynamic form of such negative control system has been widely accepted(<i>12</i>):</p>
+                                            <p>$$n*C_{in}+R{{k_{+4}\atop\rightharpoonup}\atop{\leftharpoondown\atop k_{-4}}}RC_{{in}_n}\quad{[4]}$$</p>
+                                            <p>$$O+R{{k_{+5}\atop\rightharpoonup}\atop{\leftharpoondown\atop k_{-5}}}OR\quad{[5]}$$</p>
+
+                                            <p>$R$:the repressor protein.</p>
+                                            <p>$O$: the operating region.</p>
+                                            <p>$C_{in}$: the intracellular inducers.</p>
+                                            <p>$R{C_{in}}_n$: the repressor which binds to n intracellular inducers.</p>
+                                            <p>$OR$: a operating region binds to a repressor protein.</p>
+                                            <p>This form ignores the possibility of $C_{in}$ directly competing with (Hypothesis 7). In the cell, the total expression of repressor protein $[R_{tot}]$ is constant,and the total concentration of the operating region $[O_{tot}]$ is also constant, according to the law of conservation of materials:</p>
+
+                                            <p>$$[R_{tot}]=[R]+[RC_{{in}_n}]+[OR]\tag{2.1.1}$$</p>
+                                            <p>$$[O_{tot}]=[O]+[OR]\tag{2.1.2}$$</p>
+
+                                            <p>As shown in the figure 3 above, this process can be broken down into two processes: first, the extracellular inducer binds to the repressor in the cell, causing a change in the concentration of the repressor, and then followed by a change in the concentration of the repressor resulting in a change in the concentration of the operating region.</p>
+                                            <p>Firstly, analyze the first process. Since the change of repressors is related ton both chemical equation [4] and [5], it is necessary to analyze the two equations, equation (2.1.1) and (2.1.2) to obtain the transfer function of repressor concentration with respect to intracellular inducers.</p>
+                                            $$\frac{\mathrm{d}[R]}{\mathrm{d}t}=-k_{+4}*[C_{in}]^n*[R]+k_{-4}*[RC_{{in}_n}]-k_{+5}*[O]*[R]+k_{-5}*[OR] \tag{2.1.3}$$
+                                            <p>Substitute equation (2.1.1) and (2.1.2) into equation (2.1.3), the following equation can be obtained:</p>
+                                            $$\frac{\mathrm{d}[R]}{\mathrm{d}t}=-k_{+4}*[C_{in}]^n*[R]+k_{-4}*[R_{tot}]-k_{-4}*[O_{tot}]+k_{-4}*[O]-k_{-4}*[R]-k_{+5}*[O]*[R]+{k_{-5}*[O_{tot}]-k_{-5}*[O]}$$
+                                            <p>Obviously, equation (2.1.4) is a non-linear function, so it needed to be linearized. Firstly, solve the steady-state operating point of the non-linear function.</p>
+                                            $$(k_{+4}*[C_{in}]^n+k_{+5}*[O])*[R]+(k_{-5}-k_{-4})*[O]+k_{-4}*[R]=k_{-4}*[R_{tot}]+(k_{-5}-k_{-4})*[O_{tot}]\tag{2.1.5}$$
+                                            
+                                            <p>According to the analysis, there is no inducer in the cell at the beginning, and the intracellular state at this time is the steady-state working point.</p>
+                                            <p>$$[C_{in}]_s=0\tag{2.1.6}$$</p>
+                                            <p>$$[R_{tot}]=(1+\frac{k_(+5)}{k_{-5}}*[O]_s)*[R]_s\tag{2.1.7}$$</p>
+                                            <p>$$[O_{tot}]=(1+\frac{k_(+5)}{k_{-5}}*[R]_s)*[O]_s\tag{2.1.8}$$</p>
+                                            <p>The steady-state operating point is obtained as:</p>
+                                            <p>$$[C_{in}]_s=0$$</p>
+                                            <p>$$[O]_s=\frac{-b_1+\sqrt{{b_1}^2+4*\frac{k_{+5}}{k_{-5}}*[O_{tot}]}}{2*\frac{k_{+5}}{k_{-5}}}\qquad b_1=\frac{k_{+5}}{k_{-5}}*[R_{tot}]-\frac{k_{+5}}{k_{-5}}*[O_{tot}]+1$$</p>
+                                            <p>$$[R]_s=\frac{-b_2+\sqrt{{b_2}^2+4*\frac{k_{+5}}{k_{-5}}*[R_{tot}]}}{2*\frac{k_{+5}}{k_{-5}}}\qquad b_2=\frac{k_{+5}}{k_{-5}}*[O_{tot}]-\frac{k_{+5}}{k_{-5}}*[R_{tot}]+1$$</p>
+                                            <p>Then the equation (2.1.4) is changed into an incremental model.</p>
+                                            $$f_1=\frac{\mathrm{d}\Delta[R]}{\mathrm{d}t}=-k_{+4}*\Delta([C_{in}]^n*[R])+(k_{-4}-k_{-5})*\Delta[O]-k_{-4}*\Delta[R]-k_{+5}*\Delta([O]*[R])$$
+                                            <p>Linearize it near the steady-state operating point:</p>
+                                            <p>$$\frac{\mathrm{d}\Delta[R]}{\mathrm{d}t}=[a_1\quad a_2\quad a_3]* 
+                                            \left[\begin{array}{cccc} 
+                                            \Delta[R]\\ 
+                                            \Delta[C_{in}]^n\\ 
+                                            \Delta[O] 
+                                            \end{array}\right] 
+                                            \tag{2.1.10}$$</p>
+                                            <p>$$a_1=\frac{\partial f}{\partial\Delta[R]}=-k_{+4}*{[C_{in}]_s}^n-k_{+5}*[O]_s-k_{-4}=-k_{+5}*[O]_s-k_{-4}$$</p>
+                                             <p>$$a_2=\frac{\partial f}{\partial\Delta[C_{in}]^n}=-k_{+4}*[R]_s$$</p>
+                                             <p>$$a_3=\frac{\partial f}{\partial\Delta[O]}=k_{-4}-k_{-5}-k_{+5}*[R]_s$$</p>
+                                             <p>Then, equation (2.1.10) can be expressed as:</p>
+                                             <p>$$\frac{\mathrm{d}\Delta[R]}{\mathrm{d}t}=a_1*\Delta[R]+a_2*\Delta C_{in}[s]+a_3*\Delta[O]\tag{2.1.11}$$</p>
+                                             <p>Perform Laplace Transform on equation (2.1.11):</p>
+                                             $$s*\Delta R[s]-\Delta R(0)=a_1*\Delta R[s]+a_2*\frac{n!}{s^{n-1}}*\Delta C_{in}[s]+a_3*\Delta O[s]\tag{2.1.12}$$
+                                             <p>As $\Delta R(0)=0$, so (2.1.12) becomes:</p>
+                                             <p>$$(s-a_1)*\Delta R[s]=a_2*\frac{n!}{s^{n-1}}*\Delta C_{in}[s]+a_3*\Delta O[s]\tag{2.1.13}$$</p>
+                                             <p>The transfer function of $\Delta R[s]$ with respect to $\Delta C_{in}[s]$ is obtained:</p>
+                                             <p>$$\frac{\Delta R[s]}{\Delta C_{in}[s]}=\frac{a_2*n!}{(s-a_1)*s^{n-1}}\tag{2.1.14}$$</p>
+                                             <p>Next, analyze the second process. Simultaneous chemical formula [5] and equation (2.1.2), the differential equation of $[O]$ can be obtained:</p>
+                                             <p>$$\frac{\mathrm{d}[O]}{\mathrm{d}t}=-k_{+5}*[O]*[R]+k_{-5}*[OR]\tag{2.1.15}$$</p>
+                                             <p>Substitute equation (2.1.2) into equation (2.1.15) and get:</p>
+                                             <p>$$\frac{\mathrm{d}[O]}{\mathrm{d}t}=-k_{+5}*[O]*[R]+k_{-5}*([O_{tot}]-[O])\tag{2.1.16}$$</p>
+                                             <p>Similarly, the incremental model can be obtained:</p>
+                                             <p>$$f2=\frac{\mathrm{d}\Delta[O]}{\mathrm{d}t}=-k_{+5}*[O]*[R]-k_{-5}*\Delta[O]\tag{2.1.17}$$</p>
+                                             <p>After being linearized:</p>
+                                             <p>$$\frac{\mathrm{d}\Delta[O]}{\mathrm{d}t}=a_4*\Delta[O]+a_5*\Delta[R]\tag{2.1.18}$$</p>
+                                             <p>$$a_4=\frac{\partial f_2}{\partial[O]}=-k_{+5}*[R]_s-k_{-5}$$</p>
+                                             <p>$$a_5=\frac{\partial f_2}{\partial[R]}=-k_{+5}*[O]_s$$</p>
+
+                                             <p>Perform Laplace Transform on equation (2.1.18):</p>
+
+                                             <p>$$s*\Delta O[s]-\Delta O(0)=a_4*\Delta O[s]+a_5*\Delta R[s]\tag{2.1.19}$$</p>
+
+                                             <p>Similarly, $\Delta O(0)=0$, equation (2.1.19) becomes:</p>
+
+                                             <p>$$(s-a_4)*\Delta O[s]=a_5*\Delta R[s]\tag{2.1.20}$$</p>
+
+                                             <p>The transfer function of $\Delta O[s]$ with respect to $\Delta R[s]$ is obtained:</p>
+
+                                             <p>$$\frac{\Delta O[s]}{\Delta R[s]}=\frac{a_5}{s-a_4}\tag{2.1.21}$$</p>
+
+                                             <p>At last, simultaneous chemical equation (2.1.4) and equation (2.1.21), the transform of $\Delta O[s]$ with respect to $\Delta C_{in}[s]$ is obtained:</p>
+
+                                             <p>$$\frac{\Delta O[s]}{\Delta C_{in}[s]}=\frac{\Delta O[s]}{\Delta R[s]}*\frac{\Delta R[s]}{\Delta C_{in}[s]}=\frac{a_2*a_5*n!}{(s-a_1)*(s-a_4)*s^{n-1}}\tag{2.1.22}$$</p>
+
+                                             <p>Moreover, the region of P and the region of $O$ overlap in most operons, so the free concentration of $O$ can be replaced the free concentration of $P$ (Hypothesis 8).</p>
+                                             <p>Therefore:</p>
+
+                                             $$\frac{\Delta P[s]}{\Delta C_{in}[s]}=\frac{\Delta O[s]}{\Delta R[s]}*\frac{\Delta R[s]}{\Delta C_{in}[s]}=\frac{a_2*a_5*n!}{(s-a_1)*(s-a_4)*s^{n-1}}\tag{2.1.23}$$
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>The transform of $\Delta P[s]$ with respect to $\Delta C_{in}[s]$ is obtained:</p>
+                <p>$$\frac{\Delta P[s]}{\Delta C_{in}[s]}=\frac{\Delta O[s]}{\Delta R[s]}*\frac{\Delta R[s]}{\Delta C_{in}[s]}=\frac{a_2*a_5*n!}{(s-a_1)*(s-a_4)*s^{n-1}}\tag{2.1.23}$$</p>
+                <h2>2. Positive Regulation Induction</h2>
+                <p>Positive control induction means that in the presence of the inductor, the activator protein can be activated to open the transcription of downstream genes. </p>
+                <p>The specific process of the above positive control system after the inducer enters the cell can be disassembled into:</p>
+                <p class="F2">
+                    <img src="https://2019.igem.org/wiki/images/6/6d/T--XMU-China--model-fig4.png">
+                    <p class="Figure_word"><strong>Fig. 4. Process decomposition diagram of positive regulation system </strong></p>
+                </p>  
+                </div>
+
+                <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-offset-3 col-md-6">
+                            <div id="accordion">
+                                <div class="panel">
+                                    <div class="panel-heading" role="tab" id="heading15">
+                                        <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                                    Derivation Process in Detail
+                                </a></h4>
+                                    </div>
+                                    <div id="collapse15" class="panel-collapse collapse" role="tabpanel">
+                                        <div class="panel-body">  
+                                        <p>The chemical equation of this situation is described as follows:</p>
+                                        <p>$$C_{in}+U{{k_{+6}\atop\rightharpoonup}\atop{\leftharpoondown\atop k_{-6}}}C_{in}U\quad{[6]}$$</p>
+                                        <p>$$C_{in}U+P_{unactive}{{k_{+7}\atop\rightharpoonup}\atop{\leftharpoondown\atop k_{-7}}}P_{active}\quad{[7]}$$</p>
+                                        <p>$U$: the inactive regulatory protein.</p>
+                                        <p>$C_{in}U$: the activated regulatory protein after binding to the inducer.</p>
+                                        <p>$P_{unactive}$: stands for the inactive promoter.</p>
+                                        <p>$P_{active}$: stands for the activated promoter after binding to the regulatory protein.</p>
+                                        <p>As shown in the figure 4 above, this process can also be broken down into two processes: first, the extracellular inductor bind to regulatory proteins in cells and activate them, and then the activated regulatory protein binds to the promoter so that it can be transcribed.</p>
+                                        <p>According to this, the dynamic equation can be listed:</p>
+                                        <p>$$\frac{\mathrm{d}[C_{in}U]}{\mathrm{d}t}=k_{+6}*[C_{in}]*[U]-k_{-6}*[C_{in}U]\tag{2.2.1}$$</p>
+                                        <p>$$\frac{\mathrm{d}[P_{active}]}{\mathrm{d}t}=k_{+6}*[P_{active}]*[C_{in}U]-k_{-6}*[P_{active}]\tag{2.2.2}$$</p>
+                                        <p>According to the law of conservation of materials:</p>
+                                        <p>$$[U_{tot}]=[U]+[C_{in}U]\tag{2.2.3}$$</p>
+                                        <p>$$[P_{tot}]=[P_{unactive}]+[P_{active}]\tag{2.2.4}$$</p>
+                                        <p>The form of equation (2.2.1) is exactly the same as that of equation (2.2.2), and the processing method is the same. Therefore, we only take equation (2.2.1) as an example to linearize and perform Laplace Transform on it.</p>
+                                        <p>Substitute equation (2.2.3) into equation (2.2.1) and get:</p>
+                                        <p>$$\frac{\mathrm{d}[C_{in}U]}{\mathrm{d}t}=k_{+6}*[U_{tot}]*[C_{in}]-k_{-6}*[C_{in}U]-k_{+6}*[C_{in}]*[C_{in}U]\tag{2.2.5}$$</p>
+                                        <p>Obviously, equation (2.2.5) is also a nonlinear function, so to find its steady-state operating point, it is easy to know that the steady-state operating point is when there is no inducer at the beginning. At this point:</p>
+                                        <p>$$[C_{in}]_s=0$$</p>
+                                        <p>$$[C_{inU}]_s=0$$</p>
+                                        <p>Transform the above formula into an incremental model:</p>
+                                        $$\frac{\mathrm{d}\Delta[C_{in}U]}{\mathrm{d}t}=k_{+6}*[U_{tot}]*\Delta[C_{in}]-k_{-6}*\Delta[C_{in}U]-k_{+6}*\Delta([C_{in}]*[C_{in}U]\tag{2.2.6}$$
+                                        <p>After linearization, the following formula can be obtained:</p>
+                                        <p>$$\frac{\mathrm{d}\Delta[C_{in}U]}{\mathrm{d}t}=k_{+6}*[U_{tot}]*\Delta[C_{in}]-k_{-6}*\Delta[C_{in}U]\tag{2.2.7}$$</p>
+                                        <p>The Laplace transform of equation (2.2.7) can be obtained:</p>
+                                        $$s*\Delta C_{in}U[s]-\Delta C_{in}U[0]=k_{+6}*[U_{tot}]*\Delta C_{in}[s]-k_{-6}*[U_{tot}]*\Delta C_{in}U[s]\tag{2.2.8}$$
+                                        <p>Similarly to $\Delta C_{in}U(0)=0$, formula (2.2.8) becomes:</p>
+                                        <p>$$(s+k_6)*\Delta C_{in}U[s]=k_{+6}*[U_{tot}]*\Delta C_{in}[s]\tag{2.2.9}$$</p>
+                                        <p>The transfer function of $\Delta C_{in}U[s]$ about $\Delta C_{in}[s]$ can be obtained as follows:</p>
+                                        <p>$$\frac{\Delta C_{in}U[s]}{\Delta C_{in}[s]}=\frac{k_{+6}*[U_{tot}]}{s+k_{-6}}\tag{2.2.10}$$</p>
+                                        <p>Similarly, for equations (2.2.2) and (2.2.4), the transfer function of $\Delta P_{active}[s]$ about $C_{in}U[s]$ can be obtained:</p>
+                                        <p>$$\frac{\Delta P_{active}[s]}{\Delta C_{in}U[s]}=\frac{k_{+7}*[P_{tot}]}{s+k_{-7}}\tag{2.2.11}$$</p>
+                                        <p>At last, simultaneous chemical equation (2.2.10) and equation (2.2.11), the transfer function of $\Delta P_{active}[s]$ about $\Delta C_{in}[s]$ can be obtained as follows:</p>
+                                        $$\frac{\Delta P_{active}[s]}{\Delta C_{in}[s]}=\frac{\Delta P_{active}[s]}{\Delta C_{in}U[s]}*\frac{\Delta C_{in}U[s]}{\Delta C_{in}[s]}=\frac{k_{+6}*[U_{tot}]*k_{+7}*[P_{tot}]}{(s+k_{-6})*(s+k_{-7})}\tag{2.2.12}$$
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>The transfer function of $\Delta P_{active}[s]$ about $\Delta C_{in}[s]$ can be obtained as follows:</p>
+
+<p>$$\frac{\Delta P_{active}[s]}{\Delta C_{in}[s]}=\frac{k_{+6}*[U_{tot}]*k_{+7}*[P_{tot}]}{(s+k_{-6})*(s+k_{-7})}\tag{2.2.12}$$</p>
+<h1>Transcription-Translation Process</h1>
+<h2>1. Coupling</h2>
+<p>In prokaryotes, transcription and translation take place in the same space and take place at the same time, that is, coupling reactions, and often exist in the form of polycistronics (<i>11</i>).</p>
+<p>For the transcription and translation coupling process, we use the following form to describe in process control:</p>
+<p class="F2">
+                    <img src="https://2019.igem.org/wiki/images/1/1b/T--XMU-China--model-fig5.png">
+                    <p class="Figure_word"><strong>Fig. 5. Process diagram of transcription and translation in coupling </strong></p>
+                </p>  
+            </div>
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-offset-3 col-md-6">
+                            <div id="accordion">
+                                <div class="panel">
+                                    <div class="panel-heading" role="tab" id="heading16">
+                                        <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse16" aria-expanded="false" aria-controls="collapse16">
+                                    Derivation Process in Detail
+                                </a></h4>
+                                    </div>
+                                    <div id="collapse16" class="panel-collapse collapse" role="tabpanel">
+                                        <div class="panel-body"> 
+                                        <p>The model of transcription and translation in the coupled state has been studied (<i>13</i>), but the analysis found that the use of kinetics to describe the process after transcription initiation and process after translation initiation is not reasonable. Firstly, based on the assumption that four nucleotides are sufficient (Hypothesis 9), once initiated, it should only be a rate-dependent zero-order response in the transcription and translation process. On top of that, the steady-state assumptions used is not reasonable.</p>
+                                        <p>Modify the kinetic description of promoter and RNA polymerase in the literature slightly:</p>
+                                        <p>$$P+D{{k_{+8}\atop\rightharpoonup}\atop{\leftharpoondown\atop k_{-8}}}PD\quad{[8]}$$</p>
+<p>$$PD\stackrel{k_9}{\rightarrow}D+Y\quad{[9]}$$</p>
+<p>$P$: the concentration of promoter.</p>
+<p>$D$: the concentration of RNA polymerase.</p>
+<p>$Y$: the concentration of RNA polmerase when it leaves the promoter region in the initial transcriptional state.</p>
+<p>Assume that RNA polymerases are abundant enough, so the effect of the RNA polymerases produced by decomposition in formula [9[ can be ignored and regard the concentration of RNA polumerases as constant. Then to ensure that the promoter can quickly form apolymet once it happens, the stable-state hypothesis can be used (Hypothesis 10).</p>
+<p>$$\frac{\mathrm{d}[PD]}{\mathrm{d}t}=k_{+8}*[P]*[D]-k_{-8}*[PD]-k_{9}*[PD]=0\tag{3.1.1}$$</p>
+<p>The relationship of $[PD]$ to $[P]$ and $[D]$ can be obtained:</p>
+<p>$$[PD]=\frac{k_{+8}}{k_{-8}+k_9}*[P]*[D]\tag{3.1.2}$$</p>
+<p>And:</p>
+<p>$$\frac{\mathrm{d}[Y]}{\mathrm{d}t}=k_9*[PD]\tag{3.1.3}$$</p>
+<p>Substitute equation (3.1.2) into equation (3.1.3):</p>
+<p>$$\frac{\mathrm{d}[Y]}{\mathrm{d}t}=\frac{k_{+8}*k_9*[D]}{k_{-8}+k_9}*[P]\tag{3.1.4}$$</p>
+<p>Perform Laplace Transform on equation (3.1.4):</p>
+<p>$$s*Y[s]-Y(0)=\frac{k_{+8}*k_9*[D]}{k_{-8}+k_9}*P[s]\tag{3.1.5}$$</p>
+<p>As $Y(0)=0$, so the transfer function of $Y[s]$ with respect to $P[s]$ is as follows:</p>
+<p>$$\frac{Y[s]}{P[s]}=\frac{k_{-8}+k_9}{k_{+8}*k_9*[D]*s}\tag{3.1.6}$$</p>
+<p>The assuming that when the promoter binds to RNA polymerase and turns on translation, the translation rate is constant and only related to the length of DNA sequence. It is a pure lag link.</p>
+<p>This link is the transfer function of ideal concentration of $RBS'[s]$ with respect to $Y[s]$:</p>
+<p>$$\frac{RBS'[s]}{Y[s]}=e^{-\frac{l_1}{v_1}*s}\tag{3.1.7}$$</p>
+<p>$l_1$: the number of bases leaving RBS from the beginning of translation.</p>
+<p>$v_1$: the transcription rate of bases.</p>
+<p>In general, the half-life of mRNA in most bacteria is very short, and it is now generally believed that degradation will start in 1 min after the transcription (<i>11</i>), and normally, the inition of transcription to the completion of RBS transcription occurs before degradation (Hypothesis 12).</p>
+<p>If take the decay of the mRNA into account, then:</p>
+<p>$$RBS\stackrel{k_{10}}{\rightarrow}\emptyset\quad{[10]}$$</p>
+<p>The concentration of RBS changes into:</p>
+<p class="F4">
+                    <img src="https://2019.igem.org/wiki/images/b/b3/T--XMU-China--model-fig6.png">
+                    <p class="Figure_word"><strong>Fig. 6. Diagram of RBS attenuation feedback process </strong></p>
+                </p>  
+                <p>Time item:</p>
+<p>$$e^{(\frac{l_1}{v_1}-60)*s}$$</p>
+<p>Negative feedback due to mRNA degradation:</p>
+<p>$$-\frac{\mathrm{d}[RBS']}{\mathrm{d}t}=k_{10}*[RBS]\tag{3.1.8}$$</p>
+<p>After Laplace Transform, the transfer function of this process is as follows:</p>
+<p>$$\frac{RBS'[s]}{RBS[s]}=-\frac{k_{10}}{s}\tag{3.1.9}$$</p>
+<p>According to the single loop negative feedback property of the transfer function, the transfer function of $RBS[s]$ (the actual concentration of RBS) with respect to $RBS'[s]$ (the ideal concentration of RBS) is as follows:</p>
+<p>$$\frac{RBS[s]}{RBS'[s]}=\frac{1}{1+\frac{k_{10}}{s}*e^{60-\frac{l_1}{v_1}*s}}\tag{3.1.10}$$</p>
+<p>Next the kinetic description of RBS and the ribosome is as follows:</p>
+<p>$$RBS+M{{k_{+11}\atop\rightharpoonup}\atop{\leftharpoondown\atop k_{-11}}}RBSM\quad{[11]}$$</p>
+<p>$$RBSM\stackrel{k_{12}}{\rightarrow}X+M\quad{[12]}$$</p>
+<p>$RBS$: the actual concentration of RBS.</p>
+<p>$M$: the concentration of ribosome.</p>
+<p>$X$: the concentration of ribosome when it leaves RBS and in the translation-state.</p>
+<p>Similar to the hypothesis of the transcription process, ribosomes are abundant and the concentration is constant (Hypothesis 13). In the same way as the derivation of transcription, the transfer function of $X[s]$ (the concentration of ribosome under the condition of leaving RBS in the translation state) with respect to $RBS[s]$ (the actual concentration of RBS) is as follows:</p>
+<p>$$\frac{X[s]}{RBS[s]}=\frac{k_{-11}+k_{12}}{k_{+11}*k{12}*[M]*s}\tag{3.1.11}$$</p>
+<p>Similarly, RBS, when binds to ribosome, also translated at a constant rate, which is only related to the length of amino acid sequence. It is also a pure lag link (Hypothesis 14).</p>
+<p>This link is the transfer function of $N'[s]$ (the ideal concentration of protein) with respect to X[s]:</p>
+<p>$$\frac{N'[s]}{X'[s]}=e^{-\frac{l_2}{v_2}*s}\tag{3.1.12}$$</p>
+<p>$l_2$: the number of amino acids from the beginning of translation to the ende of translation.</p>
+<p>$v_2$: the translation rate of amino acid.</p>
+<p>Finally, consider the negative feedback caused by protein decay. Similarly to the attenuation of mRNA, the main difference is that the attenuation of protein is considered after the translation process is completed (Hypothesis 15).</p>
+<p>$$N\stackrel{k_{13}}{\rightarrow}\emptyset\quad{[13]}$$</p>
+<p>The concentration of RBS changes into:</p>
+ <p class="F4">
+                    <img style="width: 30vw;" src="https://2019.igem.org/wiki/images/b/be/T--XMU-China--model-fig7.png">
+                    <p class="Figure_word"><strong>Fig. 7. Diagram of protein attenuation feedback process</strong></p>
+                </p>  
+                <p>The transfer function $N[s]$ (the actual concentration of protein) with respect to $N'[s]$ (the ideal concentration of protein) is as follows::</p>
+<p>$$\frac{N[s]}{N'[s]}=\frac{1}{1+\frac{k_{13}}{s}}\tag{3.1.13}$$</p>
+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>The transfer function of $Y[s]$ with respect to $P[s]$ is as follows:</p>
+<p>$$\frac{Y[s]}{P[s]}=\frac{k_{-8}+k_9}{k_{+8}*k_9*[D]*s}\tag{3.1.6}$$</p>
+<p>This link is the transfer function of ideal concentration of $RBS'[s]$ with respect to $Y[s]$:</p>
+<p>$$\frac{RBS'[s]}{Y[s]}=e^{-\frac{l_1}{v_1}*s}\tag{3.1.7}$$</p>
+<p>The transfer function of $RBS[s]$ (the actual concentration of RBS) with respect to $RBS'[s]$ (the ideal concentration of RBS) is as follows:</p>
+<p>$$\frac{RBS[s]}{RBS'[s]}=\frac{1}{1+\frac{k_{10}}{s}*e^{60-\frac{l_1}{v_1}*s}}\tag{3.1.10}$$</p>
+<p>The transfer function of $X[s]$ (the concentration of ribosome under the condition of leaving RBS in the translation state) with respect to $RBS[s]$ (the actual concentration of RBS) is as follows:</p>
+<p>$$\frac{X[s]}{RBS[s]}=\frac{k_{-11}+k_{12}}{k_{+11}*k{12}*[M]*s}\tag{3.1.11}$$</p>
+<p>This link is the transfer function of $N'[s]$ (the ideal concentration of protein) with respect to X[s]:</p>
+<p>$$\frac{N'[s]}{X'[s]}=e^{-\frac{l_2}{v_2}*s}\tag{3.1.12}$$</p>
+<p>The transfer function $N[s]$ (the actual concentration of protein) with respect to $N'[s]$ (the ideal concentration of protein) is as follows:</p>
+<p>$$\frac{N[s]}{N'[s]}=\frac{1}{1+\frac{k_{13}}{s}}\tag{3.1.13}$$</p>
+<h2>2. Non-Coupling</h2>
+<p>There are only two differences between the uncoupling state and the coupling state: first, the transcription and translation are not carried out at the same time, so the concentration of mRNA is used instead of the concentration of RBS in the process; secondly, the attenuation of mRNA is considered after the transcription is completed and is processed.</p>
+<p>The flow chart is shown below:</p>
+<p class="F2">
+                    <img src="https://2019.igem.org/wiki/images/3/32/T--XMU-China--model-fig8.png">
+                    <p class="Figure_word"><strong>Fig. 8. Process diagram of transcription and translation in non-coupling</strong></p>
+                </p>  
+                <p>The transcriptional prehysteresis transfer function is the same as that derived in 3.1:</p>
+<p>$$\frac{Y[s]}{P[s]}=\frac{k_{-8}+k_{9}}{k_{+8}*k_9*[D]*s}\tag{3.2.1}$$</p>
+<p>The transcriptional lag term is also only related to the length of DNA sequence. It is a pure lag link.</p>
+<p>This link is the transfer function of $mRNA'[s]$ (the ideal concentration of mRNA) with respect to $Y[s]$:</p>
+<p>$$\frac{mRNA'[s]}{Y[s]}=e^{-\frac{l_3}{v_1}*s}\tag{3.2.2}$$</p>
+<p>$l_3$: the number of bases from the beginning to the end of transcription.</p>
+<p>$v_1$: the transcription rate of bases.</p>
+<p>Consider that the decay of mRNA is independent of the time term and the form is exactly the same as protein decay, so closed-loop transfer function of $mRNA[s]$ (the actual concentration of mRNA) with respect to $mRNA'[s]$ (the ideal concentration of mRNA) is as follows:</p>
+<p>$$\frac{mRNA[s]}{mRNA'[s]}=\frac{1}{1+\frac{k_{10}}{s}}\tag{3.2.3}$$</p>
+<p>The subsequent protein translation and attenuation are exactly the same as in 3.1:</p>
+<p>$$\frac{X[s]}{mRNA[s]}=\frac{k_{-11}+k_{-12}}{k_{+11}*k_{12}*[M]*s}\tag{3.2.4}$$</p>
+<p>$$\frac{N'[s]}{X[s]}=e^{-\frac{l_2}{v_2}*s}\tag{3.2.5}$$</p>
+<p>$$\frac{N[s]}{N'[s]}=\frac{1}{1+\frac{k_{13}}{s}}\tag{3.2.6}$$</p>
+<h1>Feedback Process</h1>
+<p>Feedback process has been used in the third part. The closed-loop transfer function of the single-loop feedback system is equal to the transfer function of the forward channel divided by 1 minus the transfer function of the loop.</p>
+<p>The system as shown below:</p>
+<p class="F25">
+                    <img src="https://2019.igem.org/wiki/images/a/ae/T--XMU-China--model-fig9.png">
+                    <p class="Figure_word"><strong>Fig. 9. Single loop negative feedback connection of the transfer function</strong></p>
+                </p>  
+                <p>Derivation process comes from books (<i>10</i>):</p>
+<p>$$Y(s)=G_1(s)*E(s)=G_1(s)*(U(s)-Y_m(s))=G_1(s)*U(s)-G_1(s)*G_2(s)*Y(s)$$</p>
+<p>So the closed-loop transfer function is as follows:</p>
+<p>$$G(s)=\frac{Y(s)}{U(s)}=\frac{G_{1}(s)}{1+G_{1}(s)*G_{2}(s)}$$</p>
+<p>Two types of cases have been discussed in section 2 of the first part, which are used for the hypothesis of positive feedback and negative feedback, so this block only describes the open-loop transfer function in the feed back process.</p>
+<h2>1. Positive Feedback</h2>
+<p>Positive feedback, such as lactose operon, also expresses more lactose permease to transport more lactose at the same time as the expression of the target protein, and so on.</p>
+<p>So first the expression level of the carrier protein and the expression level of the target protein should be correlated. It is easy to know that in the case of stable expression, the ration of the two increments is constant.</p>
+<p>$$\frac{\Delta[T]}{\Delta [N]}=k_{14}\tag{4.1.1}$$</p>
+<p>After Laplace Transform, the open-loop transfer function of an increase in the concentration of the carrier protein $\Delta T[s]$ with respect to the concentration of the target protein $\Delta N[s]$ is obtained.</p>
+<p>$$\frac{\Delta T[s]}{\Delta N[s]}=k_{14}\tag{4.1.2}$$</p>
+<h2>2. Negative Feedback</h2>
+<p>Negative Feedback, such as tetracycline operon, also expresses tetracyclin-resistant protein that pumps tetracycline out of the cell to reduce the amount of tetracycline in the cell at the same time as the expression of the target protein.</p>
+<p>Similarly, the expression level of the negative regulation protein and the expression level of the target protein should be correlated.</p>
+<p>$$\frac{[V]}{[N]}=k_{15}\tag{4.2.1}$$</p>
+<p>Next, describe the process with chemical equation. Here we simplified the model, assuming that the decrease rate of intracellular inducers was only related to the concentration of negative control proteins expressed.</p>
+<p>$$-\frac{\mathrm{d}[C_{in}]}{\mathrm{d}t}=k_{16}*[V]\tag{4.2.2}$$</p>
+<p>After Laplace Transform, the open-loop transfer function of intracellular inducers $C_{in}[s]$ with respect to the concentration of the target protein $\Delta N[s]$ is obtained.</p>
+<p>$$\frac{C_{in}[s]}{N[s]}=-\frac{k_{15}*k_{16}}{s}\tag{4.2.3}$$</p>
+<p>Admittedly, many of the mechanisms of feedback are not as simple as the above chemical description, and our hypothesis may also be unreasonable in some part. So specific problems should be analyzed specially and make use of reasonable hypothesis approximations to get more accurate models.</p>
+
+<h1>Reference</h1>
+<p>1. A. Khlebnikov, et al, Effect of lacY expression on homogeneity of induction from the P(tac) and P(trc) promoters by natural and synthetic inducers. <i>Biotechnol Prog</i> <strong>18</strong>, 672-674 (2002).</p>
+<p>2. C. Chai, et al (Edit), <i>Chemical fluid flow and heat transfer</i>. (Chemical industry press, Beijing, 2st ed. 2007 Edition, 2007), pp 130. (in chinese)</p>
+<p>3. M. Chen, <i>Computational Chemistry - From Theoretical Chemistry to Molecular Simulation</i>. (Science Press, Beijing, 1st ed. 2009 Edition, 2009), pp 184-185. (in chinese)</p>
+<p>4. R. Ding, et al, Solution of Fick's second law in the case common diffusion. <i>Mathematics in Practice and Theory</i> <strong>47</strong>, 271-279 (2017). (in chinese)</p>
+<p>5. S. Jia, et al (Edit), Chemical mass transfer and separation process. (Chemical industry press, Beijing, 2st ed. 2007 Edition, 2007), pp 9. (in chinese)</p>
+<p>6. Department of Mathematics of Tongji University (Edit), <i>Advanced mathematics</i>. (Higher education press, Beijing, 7st ed. 2014 Edition, 2014), pp 338-341. (in chinese)</p>
+<p>7. J. R. Lancaster, et al, Studies of the beta-galactoside transporter in inverted membrane vesicles of Escherichia coli. II. Symmetrical binding of a dansylgalactoside induced by an electrochemical proton gradient and by lactose efflux. <i>J Biol Chem</i> <strong>252</strong>, 7662-7666 (1977).</p>
+<p>8. D. Kolodrubetz, et al, L-arabinose transport systems in Escherichia coli K-12. <i>J Bacteriol</i> <strong>148</strong>, 472-479 (1981).</p>
+<p>9. X. Huang, et al (Edit), <i>Modern biochemistry</i>. (Chemical industry press, Beijing, 3st ed. 2012 Edition, 2012), pp 118. (in chinese)</p>
+<p>10. Q. Jiang, et al, <i>Chemical process control</i>. (Higher education press, Beijing, 1st ed. 2007 Edition, 2007), pp 83, 170. (in chinese)</p>
+<p>11. Y. Zhu, et al (Edit), <i>Modern molecular biology</i>. (Higher education press, Beijing, 4st ed. 2013 Edition, 2013), pp 252-261, 272-275, 93-94. (in chinese)</p>
+<p>12. A. Kremling, Comment on mathematical models which describe transcription and calculate the relationship between mRNA and protein expression ratio. <i>Biotechnol Bioeng</i> <strong>96</strong>, 815-819 (2007).</p>
+
+
+</div>
+</section>
+<section id="Application"  class="js-scroll-step">
+<div class="headline">
+                    Application: Response rates of different inducers
+                </div>
+<h1>Background and Analysis</h1>
+<p>In this year’s subject design, the cellobiose needs to be transported into cells through LacY for bacteria to use, while LacY in <i>E.coli</i> is regulated by lactose operon. So we have two choices: IPTG and lactose.</p>
+<p>We are afraid that the transport rate of inducers is too slow, causing bacterium’s death due to lack of carbon sources before the reaction has been. Then the expected change process is not achieved. Therefore, the model is built to analyze IPTG and lactose respectively.</p>
+<h1>Model Application</h1>
+<p>Since both are being designed to induce lactose operon, the subsequent induction, transcription, translation and feedback process can be ignored. The difference between the IPTG and lactose only exists in their process of transportation. IPTG is simple diffusion and lactose is transported through carrier protein. Under the hypothesis that the concentration of extracellular inducer is constant, perform Laplace Transform respectively.</p>
+<p>Perform inverse transformation on the simple diffusion transfer function (1.1.1) (<i>1</i>):</p>
+
+<p>$$[C_{in}]=[C_{out}]+[C_{out}]*\frac{4}{\pi }*\sum_{n=1}^{+\infty }\frac{(-1)^{n}}{2*n-1}*cos[\frac{z}{r_e}*(n-\frac{1}{2})*\pi ]*e^{-\frac{D*t}{{r_e}^2}*(n-\frac{1}{2})^2*\pi ^2}$$</p>
+
+<p>The sum of n is required to be greater than 10000.</p>
+<p>In the carrier transport transfer function formula (1.2.6), select the equilibrium approximation. The number of transport proteins is constant and the extracellular concentration is unchanged after input, which is the step function, i.e.:</p>
+
+<p>$$C_{out}[s]=\frac{[C_{out}]_s}{s}$$</p>
+
+<p>After Laplace Transform:</p>
+
+<p>$$[C_{in}]=[C_{out}]_s*\frac{k_2*[T]}{k_3*K_m}*(1-e^{-k_3*t})$$</p>
+<div class="table_container">
+                    <table class="table" style="border-collapse: collapse;">
+                    <tr style="border-bottom: 1px solid black;">
+                        <th>Parameter</th>
+                        <th>Paraphrase</th>
+                        <th>Value</th>
+                        <th>Notes</th>
+                    </tr>
+                    <tr>
+                        <td>[C<sub>out</sub>]<sub>s</sub></td>
+                        <td>the concentration of extracellular inducer</td>
+                        <td>10<sup>-4</sup>M</td>
+                        <td>Laboratory dosage</td>
+                    </tr>
+                    <tr>
+                        <td>Z</td>
+                        <td>Thickness of E. coli inner membrane to the outer membrane</td>
+                        <td>30*10<sup>-9</sup>m</td>
+                        <td>the literature value (<i>2</i>)</td>
+                    </tr>
+                    <tr>
+                        <td>r<sub>e</sub>=d<sub>e</sub>/2</td>
+                        <td>equivalent radius</td>
+                        <td>1.563*10<sup>-6</sup>m</td>
+                        <td>Equivalent radius conversion (<i>2</i>)</td>
+                    </tr>
+                    <tr>
+                        <td>D</td>
+                        <td>The number of lactose-permease</td>
+                        <td>3</td>
+                        <td>The initial valuation (<i>3</i>)</td>
+                    </tr>
+                    <tr>
+                        <td>K<sub>m</sub></td>
+                        <td>Michaelis constant of lactose permease</td>
+                        <td>8.5*10<sup>-5</sup>m</td>
+                        <td rowspan=2>the literature valuation (<i>4</i>)</td>
+                    </tr>
+                    <tr>
+                        <td>k<sub>2</sub></td>
+                        <td>the transport rate of lactose</td>
+                        <td>2.7*10<sup>-4</sup>/s</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid black;">
+                        <td>k<sub>3</sub></td>
+                        <td>the consumption rate of lactose</td>
+                        <td>1.548*10<sup>-4</sup>/s</td>
+                        <td>the literature valuation (<i>5</i>)</td>
+                    </tr>
+                    </table>
+                 </div>
+                 <h1>Results of Model</h1>
+                 <p>First, for lactose, active transport exists, so the concentration of intracellular lactose is much higher than the extracellular. However, what we want to investigate is the early reaction speed. And at the same time, once the concentration of intracellular lactose is higher than the extracellular, the lactose will be transported through the carrier protein. Situation is too complicated, so we just consider the transfer rate of both before reaching the extracellular concentration.</p>
+                 <p>Matlab runs as foolows:</p>
+                 <p class="F3">
+                    <img src="https://2019.igem.org/wiki/images/0/02/T--XMU-China--model-1-1.png">
+                </p>
+                <p>It can be seen that the transport rate of IPTG is higher than that of lactose. For the purpose of rapid reaction, we choose IPTG as our inducer.</p>
+                <h1>Reference</h1>
+                <p>1. D. Zhou (Edit), <i>Microbiology tutorial</i>. (Higher education press, Beijing, 3st ed. 2011 Edition, 2011), pp 19-23, 15. (in chinese)</p>
+<p>2. S. Jia, et al (Edit), Chemical mass transfer and separation process. (Chemical industry press, Beijing, 2st ed. 2007 Edition, 2007), pp 344. (in chinese)</p>
+<p>3. J. K. Wright, et al, Lactose Carrier Protein of Escherichia-Coli - Interaction with Galactosides and Protons. <i>Biochemistry-Us</i> <strong>20</strong>, 6404-6415 (1981).</p>
+<p>4. M. M. Abboud, et al, Biodegradation kinetics and modeling of whey lactose by bacterial hemoglobin VHb-expressing Escherichia coli strain. <i>Biochem Eng J</i> <strong>48</strong>, 166-172 (2010).</p>
+
+            </section>
+            <section id="Other_Model" class="js-scroll-step">
+                <div class="headline">
+                    Other Model
+                </div>
+                <h1>Background and Analysis</h1>
+                <p>The purpose is to study whether there is an equilibrium point with respect to the concentration of two kinds of bacterium mixed cultivation which hurt each other (they can coexist at this point) and the change of this equilibrium point with respect to the substrate and time.Then based on these to guide the experimental characterization verification.</p>
+                <h1>Model Application</h1>
+                <p>1. Assuming that cell growth is consistent with Monod Equation and the process is continuous.</p>
+<p>2. Assuming the process of the cell production is stable.</p>
+<p>3. Assuming the secretion of the product after production is rapid.</p>
+<p>4. Ignoring the natural death of bacteria and the death of bacteria is only related to Colicin.</p>
+<p>5. As Colicin enters, the cell is considered dead.</p>
+<p>According to the growth kinetics and substrate consuming kinetics in microbial fermentation, the ODE can be listed:</p>
+<p>$$\frac{\mathrm{d} [X]}{\mathrm{d} t}={r}_{Growth}-{r}_{Death}$$</p>
+<p>$${r}_{Growth}=\mu *[X]$$</p>
+<p>$$\mu=\frac{\mu_{max}*[S]}{K_s*[S]}$$</p>
+<p>$${r}_{Substract}=\frac{{r}_{Growth}}{Y_{\frac{Growth}{Substract}}}+m*[X]+\frac{{r}_{Produce}}{Y_{\frac{Produce}{Substract}}}$$</p>
+
+<p>$[X]$: the concentration of bacteria.</p>
+<p>$\mu$: specific growth rate.</p>
+<p>$[X]$: the concentration of substrate.</p>
+<p>Others are listed as follows:</p>
+<div class="table_container">
+                    <table class="table" style="border-collapse: collapse;">
+                    <tr style="border-bottom: 1px solid black;">
+                        <th>Parameter</th>
+                        <th>Paraphrase</th>
+                        <th>Value</th>
+                        <th>Notes</th>
+                    </tr>
+                    <tr>
+                        <td>μ<sub>max</sub></td>
+                        <td>The maximum specific growth rate of <i>E.coli</i></td>
+                        <td>0.85/h</td>
+                        <td rowspan=5>Valuation by experience. Because the two types of colicin are nearly identical in nature, the values in this table can be approximated.</td>
+                    </tr>
+                    <tr>
+                        <td>K<sub>s</sub></td>
+                        <td>The half-saturation constant of <i>E.coli</i></td>
+                        <td>97.6M</td>
+                    </tr>
+                    <tr>
+                        <td>Y<sub>Growth/Substract</sub></td>
+                        <td>Cell yield relative to matrix consumption</td>
+                        <td>o.5</td>
+                    </tr>
+                    <tr>
+                        <td>m</td>
+                        <td>Cell maintenance factor</td>
+                        <td>5</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid black;">
+                        <td>Y<sub>Produce/Substract</sub></td>
+                        <td>Product yield relative to matrix consumption</td>
+                        <td>o.3</td>
+                    </tr>
+                </table>
+            </div>
+            <p>Both types of colicin are produce-uncoupled cell growth:</p>
+            <p>$${r}_{Produce}=\beta*[X]$$</p>
+            <div class="table_container">
+                    <table class="table" style="border-collapse: collapse;">
+                    <tr style="border-bottom: 1px solid black;">
+                        <th>Parameter</th>
+                        <th>Paraphrase</th>
+                        <th>Value</th>
+                        <th>Notes</th>
+                    </tr>
+                    <tr>
+                        <td>βE</td>
+                        <td>TColicin-E1 Proportional constant</td>
+                        <td>1</td>
+                        <td>Assumption</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid black;">
+                        <td>βN</td>
+                        <td>TColicin-N Proportional constant</td>
+                        <td>0.7</td>
+                        <td>Assumption</td>
+                    </tr>
+                </table>
+            </div>
+            <p>The death of bacterium is caused by Colicin. The mechanism of action of Colicin-E1 is as follows:</p>
+
+<p>$$Colicin-E1+BtuB{{K_{E}\atop\rightharpoonup}\atop{\leftharpoondown\atop }} Colicin-E1-BtuB \stackrel{k_{1}}{\rightarrow}insert$$</p>
+
+<p>Using the equilibrium approximation:</p>
+
+<p>$$ r_{Death-N}=k_1*K_E*[Colicin-E1]*[BtuB]$$</p>
+
+<p>$[BtuB]$(the concentration of membrane protein in $[BtuB]$) can establish a relationship based on [\rho _{BtuB}](the number of single cell membrane proteins) and $[X]$(the concentration of cell).</p>
+
+<p>$$ r_{Death-N}=k_1*K_E*[Colicin-E1]* [\rho _{BtuB}]*[X_E]$$</p>
+<div class="table_container">
+                    <table class="table" style="border-collapse: collapse;">
+                    <tr style="border-bottom: 1px solid black;">
+                        <th>Parameter</th>
+                        <th>Paraphrase</th>
+                        <th>Value</th>
+                        <th>Notes</th>
+                    </tr>
+                    <tr>
+                        <td>k<sub>1</sub></td>
+                        <td>the transfer speed of BtuB</td>
+                        <td>0.102/h</td>
+                        <td>Assumption</td>
+                    </tr>
+                    <tr>
+                        <td>K<sub>E</sub></td>
+                        <td>the association constant of Colicin-E1</td>
+                        <td>5*10<sup>7</sup>/M</td>
+                        <td>the literature valuation (<i>1</i>)</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid black;">
+                        <td>ρ<sub>BtuB</sub></td>
+                        <td>the number of BtuB in single <i>Ecoli</i></td>
+                        <td>225</td>
+                        <td>the literature valuation (<i>2</i>)</td>
+                    </tr>
+                </table>
+            </div>
+            <p>Similarly, the mechanism of action of Colicin-N is as follows:</p>
+
+<p>$$Colicin-N+OmpF{{K_{N}\atop\rightharpoonup}\atop{\leftharpoondown\atop }} Colicin-N- OmpF \stackrel{k_{2}}{\rightarrow}insert$$</p>
+<p>$$ r_{Death-E}=k_2*K_N*[Colicin-N]* [\rho _{ OmpF }]*[X_N]$$</p>
+<div class="table_container">
+                    <table class="table" style="border-collapse: collapse;">
+                    <tr style="border-bottom: 1px solid black;">
+                        <th>Parameter</th>
+                        <th>Paraphrase</th>
+                        <th>Value</th>
+                        <th>Notes</th>
+                    </tr>
+                    <tr>
+                        <td>k<sub>2</sub></td>
+                        <td>the transfer speed of OmpF</td>
+                        <td>0.2/h</td>
+                        <td>Assumption</td>
+                    </tr>
+                    <tr>
+                        <td>K<sub>N</sub></td>
+                        <td>the association constant of Colicin-N</td>
+                        <td>5*10<sup>5</sup>/M</td>
+                        <td>the literature valuation (<i>3</i>)</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid black;">
+                        <td>ρ<sub>OmpF</sub></td>
+                        <td>the number of OmpF in single <i>Ecoli</i></td>
+                        <td>7*10<sup>4</sup></td>
+                        <td>the literature valuation (<i>4</i>)</td>
+                    </tr>
+                </table>
+            </div>
+            <h1>Results of Model</h1>
+            <p>Matlab runs as follows:</p>
+            <p class="F2">
+                    <img src="https://2019.igem.org/wiki/images/9/9a/T--XMU-China--Matrix.png">
+                </p>
+                <p>According to the results in the figure, when the concentration of substrate is higher than a range, there is a ratio of the concentration of bacterium that make the two group of bacterium reach a equilibrium. Whereas condition that the concentration of substrate is same, along the time line, the radio will change once the time changes.</p>
+<p>On top of that, it can be known that when the concentration of substrate is low, there is no stable point in the radio of the concentration of bacterium.</p>
+<p>This model guides us to control the concentration of substrate above a certain range in characterization experiment.</p>
+<h1>Reference</h1>
+<p>1. W. A. Cramer, et al, On mechanisms of colicin import: the outer membrane quandary. <i>Biochem J</i> <strong>475</strong>, 3903-3915 (2018).</p>
+<p>2. M. D. Lundrigan, et al, Strain and Temperature-Dependent Variation in the Amount of Btub Polypeptide in the Escherichia-Coli K-12 Outer-Membrane. <i>Fems Microbiol Lett</i> <strong>24</strong>, 341-344 (1984).</p>
+<p>3. L. J. A. Evans, et al, Direct measurement of the association of a protein with a family of membrane receptors. <i>J Mol Biol</i> <strong>255</strong>, 559-563 (1996).</p>
+<p>4. R. El Kouhen, et al, Colicin N interaction with sensitive Escherichia coli cells: in situ and kinetic approaches. <i>Res Microbiol</i> <strong>149</strong>, 645-651 (1998).</p>
+
+</section>
+
+
+
+<div class="footer">
+            <div class="footer_bottom">
+                <p>Xiamen University, Fujian, China</p>
+                <p>No.422, Siming South Road, Fujian, P.R.China 361005</p>
+            </div>
+        </div>
+<!-- <script type="text/javascript" src="js/right.js"></script> -->
+     <!-- <script src="https://2019.igem.org/Team:XMU-China/js/right?action=raw&amp;ctype=text/javascript"></script> -->
+
+
+
+
+
+
+
+
+ 
+
+
+
+      
+
+
+
+
+        
+
+
+
+
+
+
+
+        </div>
+
+
+
+    </body>
+    </html>
