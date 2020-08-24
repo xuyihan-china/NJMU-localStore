@@ -1,6 +1,6 @@
 function right() {
     //////////////////////
-    // Utils 节流函数
+    // Utils
     //////////////////////
     function throttle(fn, delay, scope) {
         // Default delay

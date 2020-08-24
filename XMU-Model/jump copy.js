@@ -1,6 +1,6 @@
 function right() {
     //////////////////////
-    // Utils 节流函数 过一段时间触发一次
+    // Utils 节流函数
     //////////////////////
     function throttle(fn, delay, scope) {
         // Default delay
@@ -23,7 +23,7 @@ function right() {
         }
     }
     function extend(destination, source) {
-        for (var k in source) {//遍历source中的key
+        for (var k in source) {
             if (source.hasOwnProperty(k)) {
                 destination[k] = source[k];
             }

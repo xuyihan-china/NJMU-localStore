@@ -3,7 +3,7 @@
     z-index: 1;
     margin: 0;
     top: 20%;
-    left: 5% !important;
+    left: 2% !important;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     display:none;
@@ -83,20 +83,30 @@
     position: relative;
 }
 @media screen and (max-width: 769px) {
-    .Quick-navigation {
+    .feature {
         display: none;
     }
-
+    .Quick-navigation{
+        visibility: hidden;
+    }
+    p{
+        font-size: 18px !important;
+    }
+}
+@media screen and (max-width:769px){
+    #topHead{
+        visibility: hidden;
+    }
 }
 @media screen and (min-width: 769px) and (max-width: 89.9375rem) {
     .Quick-navigation {
     left: 85vw;
-}
+    }
 }
 #Quick_A,
 #Quick_B,
 #Quick_C,
 #Quick_D,
 #Quick_F {
-    font-size: 0.8vw;
+    font-size: 1.2vw;
 }

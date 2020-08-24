@@ -5,7 +5,7 @@ body {background:#fff !important; color:#fff !important;}
 .opaque {position:absolute; top:0; left:0; right:0; bottom:0; opacity:0; background:#d2d6f1;}
 .lt-ie9 .opaque {display:none;}
 .feature {position:fixed;
-          top:0; z-index:0; width:100%; padding-top:50%; background: url(./earth.jpg) center center no-repeat;/* https://2020.igem.org/wiki/images/c/c1/T--NJMU-China--earth01.jpg */
+          top:0; z-index:0; width:100%; padding-top:50%; background: url(https://2020.igem.org/wiki/images/9/98/T--NJMU-China--mountain.jpg) center center no-repeat;/* https://2020.igem.org/wiki/images/c/c1/T--NJMU-China--earth01.jpg */
     -webkit-background-size:100%;
        -moz-background-size:100%;
          -o-background-size:100%;
@@ -18,12 +18,12 @@ body {background:#fff !important; color:#fff !important;}
 .content {position:relative; z-index:1; padding-top:45%; width:90%; margin:0 auto;}
 
 @media only screen and (min-width:36.250em) {
-  .content {width:60%; padding-top:35% }
+  .content {width:69%; padding-top:35% }
 }
 mark{
   background-color: transparent;
   color:inherit;
-  background-image: linear-gradient(#f1ff6e,#f1ff6e);
+  background-image: linear-gradient(#41d6ca,#41d6ca);
   background-repeat: no-repeat;
   background-size: 0% 18%;
   background-position: 0% 100%;
@@ -31,7 +31,7 @@ mark{
 mark.animate{
   
   animation: 5s highLight ease-in-out forwards;
-  animation-delay: 0.5s;
+  animation-delay: 1.5s;
 }
 @keyframes highLight{
   to{
@@ -52,7 +52,10 @@ h1{
   position: fixed;
   font-size: 40px;
   top:10%;
-  left: 5%;
+  left: 2%;
   color:wheat;
 }
 
+div#mw-content-text{
+  background-color:white;
+}
