@@ -113,6 +113,7 @@ function right() {
                     }
                 }
             },
+            ///hhhh
             smoothScroll: function() {
                 if (options.navigationContainer !== null) options.navigationContainer.addEventListener('click', this.doSmoothScroll);
             },
