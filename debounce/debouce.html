@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100vw;
+            height: 20vh;
+            background-color: rgb(70, 68, 68);
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <script>
+        var box = document.querySelector('.box')
+        var testDebounce = debounce(move,1000)
+        box.onmousemove = testDebounce
+        function move(e){
+            console.log('执行了')
+        }
+        function debounce (fn,wait){
+            let time = null;
+            return function(){
+                var args = arguments // time null false
+                var now = !time  //为的是第一次进来的时候，now为真 执行一次 now true
+                time && clearTimeout(time);  //false 不执行
+                time = setTimeout(()=>{  //time = object 赋值为真不执行
+                    time = null // setTimeout 的函数是 立即执行的
+                },wait)
+                if(now){
+                    fn.apply(this,args)
+                }
+            }
+        }
+        // 执行中 ： now ： false time: false
+        // 可以执行 ： now: true time :true
+    </script>
+</body>
+</html>

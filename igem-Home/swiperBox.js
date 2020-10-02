@@ -3,7 +3,7 @@ var swiper = new Swiper('.blog-slider', {
     effect: 'fade',
     loop: true,
     mousewheel: {
-      invert: false,
+      invert: true,
     },
     // autoHeight: true,
     pagination: {
