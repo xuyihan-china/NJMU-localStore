@@ -30,11 +30,11 @@
 
 <body style="overflow-x:hidden">
 
-  <section class="intro-section">
+  <!--  <section class="intro-section">
     <video
       src="https://www.apple.com/105/media/us/iphone-se/2020/90024c0f-285a-4bf5-af04-2c38de97b06e/anim/arcade-loop/large.mp4"
       muted playsinline autoplay loop style="width: 100% ; height: 100vh; transform: scale(2);"></video>
-  </section>
+  </section> -->
 
 
 
@@ -192,70 +192,84 @@
   <!--滚动结束 -->
 
   <!-- slider 组件-->
-<div class="big-slider">
-  <div class="blog-slider">
-    <div class="blog-slider__wrp swiper-wrapper">
-      <div class="blog-slider__item swiper-slide">
-        <div class="blog-slider__img">
+  <div class="big-slider" style="position: relative;">
+    <div class="clearfix">
+      <img src="https://2020.igem.org/wiki/images/3/3a/T--NJMU-China--boy.gif" alt="" id="boy">
+    </div>
+    <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
 
-          <img src="https://2019.igem.org/wiki/images/8/81/T--CAU_China--homepage2.jpg"
-            alt="">
+            <img src="https://2019.igem.org/wiki/images/8/81/T--CAU_China--homepage2.jpg" alt="">
+          </div>
+          <div class="blog-slider__content">
+            <span class="blog-slider__code">24 July 2020</span>
+            <div class="blog-slider__title">Our Team</div>
+            <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
+              voluptate
+              repellendus magni illo ea animi? </div>
+            <a href="https://2020.igem.org/Team:NJMU-China/Contribution" class="blog-slider__button">READ MORE</a>
+          </div>
         </div>
-        <div class="blog-slider__content">
-          <span class="blog-slider__code">24 July 2020</span>
-          <div class="blog-slider__title">Our Team</div>
-          <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate
-            repellendus magni illo ea animi? </div>
-          <a href="https://2020.igem.org/Team:NJMU-China/Contribution" class="blog-slider__button">READ MORE</a>
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="https://2019.igem.org/wiki/images/9/97/T--CAU_China--homepage4.jpg" alt="">
+          </div>
+          <div class="blog-slider__content">
+            <span class="blog-slider__code">26 December 2019</span>
+            <div class="blog-slider__title">Our project</div>
+            <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
+              voluptate
+              repellendus magni illo ea animi?</div>
+            <a href="https://2020.igem.org/Team:NJMU-China/Model" class="blog-slider__button">READ MORE</a>
+          </div>
         </div>
-      </div>
-      <div class="blog-slider__item swiper-slide">
-        <div class="blog-slider__img">
-          <img src="https://2019.igem.org/wiki/images/9/97/T--CAU_China--homepage4.jpg"
-            alt="">
-        </div>
-        <div class="blog-slider__content">
-          <span class="blog-slider__code">26 December 2019</span>
-          <div class="blog-slider__title">Our project</div>
-          <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate
-            repellendus magni illo ea animi?</div>
-          <a href="https://2020.igem.org/Team:NJMU-China/Model" class="blog-slider__button">READ MORE</a>
-        </div>
-      </div>
 
-      <div class="blog-slider__item swiper-slide">
-        <div class="blog-slider__img">
-          <img
-            src="https://2020.igem.org/wiki/images/f/f8/T--NJMU-China--background.jpg"
-            alt="">
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="https://2020.igem.org/wiki/images/f/f8/T--NJMU-China--background.jpg" alt="">
+          </div>
+          <div class="blog-slider__content">
+            <span class="blog-slider__code">20 August 2020</span>
+            <div class="blog-slider__title">Our Model</div>
+            <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
+              voluptate
+              repellendus magni illo ea animi?</div>
+            <a href="https://2020.igem.org/Team:NJMU-China/Human_Practices" class="blog-slider__button">READ MORE</a>
+          </div>
         </div>
-        <div class="blog-slider__content">
-          <span class="blog-slider__code">20 August 2020</span>
-          <div class="blog-slider__title">Our Model</div>
-          <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate
-            repellendus magni illo ea animi?</div>
-          <a href="https://2020.igem.org/Team:NJMU-China/Human_Practices" class="blog-slider__button">READ MORE</a>
-        </div>
+
       </div>
+      <div class="blog-slider__pagination"></div>
 
     </div>
-    <div class="blog-slider__pagination"></div>
+    <div class="clearfix">
+      <img src="https://2020.igem.org/wiki/images/9/9f/T--NJMU-China--girl.gif" alt="" id="girl">
+
+    </div>
   </div>
-</div>
   <!-- slider 结束-->
-  <div class="container-fluid big">
-    <div class="row">
-      <div class="col-md-4 col-xs-12 col" id="col1">Model</div>
-      <div class="col-md-4 col-xs-12 col" id="col2">Human practice</div>
-      <div class="col-md-4 col-xs-12 col" id="col3">Our project</div>
-    </div>
-  </div>
+
 
 </html>
 
 </body>
-<!--jquery 引入 -->
+
 <script src="./jQuery.js"></script>
+<script>
+    let boy = document.getElementById('boy')
+    let girl = document.getElementById('girl')
+    let imgUrl = boy.src
+    let imgUrlG = girl.src
+    setInterval(() => {
+      let date = new Date().getTime()
+      boy.setAttribute("src",imgUrl+ "?time=" + new Date().getTime())
+      girl.setAttribute("src",imgUrlG+ "?time=" + new Date().getTime())
+    }, 7000);
+</script>
+<!--jquery 引入 -->
+
 <!-- <script type="text/javascript"
   src="https://2020.igem.org/Template:NJMU-China/jquery?action=raw&ctype=text/javascript"></script> -->
 

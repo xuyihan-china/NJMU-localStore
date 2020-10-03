@@ -1,4 +1,13 @@
-.big{
-    background-color: tomato;
+
+#boy{
     height: 40vh;
+    position: absolute;
+    left: 10%; 
+    top: 0;
+}
+#girl{
+    height: 40vh;
+    position: absolute;
+    top:-42vh;
+    right: 10%; 
 }
