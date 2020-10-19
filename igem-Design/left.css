@@ -17,28 +17,29 @@
     position: relative;
 }
 #Quick_B {
-    top: 12.25vw;
+    top: 12.65vw;
     position: relative;
 }
 #Quick_C {
-    top: 14.5vw;
+    top: 15.75vw;
     position: relative;
 }
 #Quick_D {
-    top: 16.75vw;
-    position: relative;
-}
-#Quick_F {
     top: 19vw;
     position: relative;
 }
+#Quick_F {
+    top: 22.25vw;
+    position: relative;
+}
+
 #Quick_A,
 #Quick_B,
 #Quick_C,
 #Quick_D,
 #Quick_F {
     text-align: left;
-    padding-left: 1vw;
+    padding-left: 1.5vw;
     color: #000707 !important;
     text-decoration: none;
     font-size: 1.1vw;
@@ -50,6 +51,7 @@
     z-index: 1;
     white-space: nowrap;
 }
+
 #Quick_A:hover,
 #Quick_B:hover,
 #Quick_C:hover,
@@ -57,9 +59,11 @@
 #Quick_F:hover {
     font-weight: bolder;
 }
+
 .current+a {
     font-weight: bolder;
 }
+
 .Quick-navigation-item>img {
     display: none;
 }
@@ -82,15 +86,17 @@
     float: left;
     position: relative;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1720px) {
     .feature {
         display: none;
     }
-    .Quick-navigation{
-        visibility: hidden;
-    }
     p{
         font-size: 18px !important;
+    }
+}
+@media screen and (max-width:769px){
+    .Quick-navigation{
+        opacity: 0;
     }
 }
 @media screen and (max-width:769px){
@@ -109,4 +115,7 @@
 #Quick_D,
 #Quick_F {
     font-size: 1.2vw;
+}
+#last{
+    margin-bottom: 10vh;
 }

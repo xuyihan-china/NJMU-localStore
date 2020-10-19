@@ -55,7 +55,7 @@ var swiper = new Swiper('.news-slider', {
         rotate: 0,
         stretch: 0,
         depth: 0,
-        modifier: 3,
+        modifier: 1,
         slideShadows: false
     },
     breakpoints: {

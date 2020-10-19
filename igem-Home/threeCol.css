@@ -1,13 +1,14 @@
 
 #boy{
     height: 40vh;
-    position: absolute;
-    left: 10%; 
+   /*  position: absolute;
     top: 0;
+    left: 1%;  */
+    
 }
 #girl{
     height: 40vh;
-    position: absolute;
+    /* position: absolute;
     top:-42vh;
-    right: 10%; 
+    right: 1%;  */
 }

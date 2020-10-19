@@ -1,19 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-
+{{NJMU-China}}
+{{NJMU-China/loading2}}
+{{Template:NJMU-China/css/cover.css}}
+{{Template:NJMU-China/css/normalize.css}}
+{{Template:NJMU-China/css/bootstrap.min}}
+{{Template:NJMU-China/css/Team}}
+{{NJMU-China/html/navFixed}}
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - Responsive News Card Slider</title>
-  <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
-  <link rel="stylesheet" href="./style.css">
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team</title>
+    <style>
+       
+    </style>
 </head>
-
 <body>
-  <!-- partial:index.partial.html -->
   <div class="wrapper">
 
     <div class="background">
@@ -71,7 +73,7 @@
               <span class="news-date__txt"></span>
             </div>
             <div class="news__title">
-              Su Chuan
+              Chuan Su 
             </div>
 
             <p class="news__txt">
@@ -109,16 +111,11 @@
               <span class="news-date__txt">leader</span>
             </div>
             <div class="news__title">
-              鞠思瀚   
+              Sihan Ju   
             </div>
 
             <p class="news__txt">
-              I’m a senior student major in clinical medicine. I’ve been committed to interdisciplinary researches (Big
-              Fan of It!) concerning embryo development and made some progress already. I’m so into interdisciplinary
-              communications and that’s why I’m doing this, iGEM. It is of great fun take part in this year’s iGEM, for
-              all the brainstormings, discussions and collaborations within our team or in the whole warming community.
-              Though its even our first time doing synthetic biology researches, we are fully devoted and found it of
-              interest. Hope everything goes well for us and every team.
+              I'm Sihan Ju (Axis) from Nanjing Medical University and I’m a senior student major in clinical medicine. I’ve been committed to interdisciplinary researches concerning embryo development and made some progress already. It is of great fun take part in this year’s iGEM, for all the brainstormings, discussions and collaborations within our team or in the whole warming community. Though its even our first time doing synthetic biology researches, we are fully devoted and found it of interest.
             </p>
 
             <div class="news__img">
@@ -134,14 +131,11 @@
               <span class="news-date__txt">leader</span>
             </div>
             <div class="news__title">
-              张祎泠
+              Yiling Zhang
             </div>
 
             <p class="news__txt">
-              Xingyin Liu, Professor Xingyin Liu is Ph.D candicates' supervisor in the School of Basic Medicine Science
-              at Nanjing Medical University. Her researches mainly focus on gut-microbiota-brain axis in Autism disease
-              and investigating bacteria activity linking to pathogenesis of Autism disease. She is a key member of our
-              consultant team.
+              Third-year student majoring bioinformatics. CODING MANIA and talking is totally my thing. Wish to kindle a spark of insight in the field of life science. Speak for AUTISM and let the responsibility be in our journey!
             </p>
 
             <div class="news__img">
@@ -157,7 +151,7 @@
               <span class="news-date__txt">member</span>
             </div>
             <div class="news__title">
-              曹濛濛  
+              Mengmeng Cao
             </div>
 
             <p class="news__txt">
@@ -179,7 +173,7 @@
               <span class="news-date__txt">member</span>
             </div>
             <div class="news__title">
-              陈峻泓
+              Junhong Chen
             </div>
 
             <p class="news__txt">
@@ -203,7 +197,7 @@
               <span class="news-date__txt">member</span>
             </div>
             <div class="news__title">
-              季逸圣
+              Ethan
             </div>
 
             <p class="news__txt">
@@ -246,7 +240,7 @@
               <span class="news-date__txt">member</span>
             </div>
             <div class="news__title">
-              林睿朗
+              Ruilang Lin
             </div>
 
             <p class="news__txt">
@@ -267,7 +261,7 @@
               <span class="news-date__txt">member</span>
             </div>
             <div class="news__title">
-              裴必玲
+              Biling Pei
             </div>
 
             <p class="news__txt">
@@ -289,7 +283,7 @@
               <span class="news-date__txt">member</span>
             </div>
             <div class="news__title">
-              时斯婧
+              Sijing Shi
             </div>
 
             <p class="news__txt">
@@ -311,7 +305,7 @@
               <span class="news-date__txt">member</span>
             </div>
             <div class="news__title">
-              汤宁远
+              Ningyuan Tang
             </div>
 
             <p class="news__txt">
@@ -333,7 +327,7 @@
               <span class="news-date__txt">member</span>
             </div>
             <div class="news__title">
-              王若茗
+              Ruoming Wang
             </div>
 
             <p class="news__txt">
@@ -353,11 +347,12 @@
               <span class="news-date__txt">member</span>
             </div>
             <div class="news__title">
-              王艳
+              Yan Wang
             </div>
 
             <p class="news__txt">
               Yan Wang is a student of Nanjing Medical University, China, majoring in the 5-year program of Basic Science. She has joined laboratory since 2018 and participated in scientific research. She is skilled at the basic experimental techniques including cell culture, western blotting, PCR, and animal experiments. In this program, she focuses on the experimental part and takes part in human practices. She hopes to use synthetic biology to try out new ways of diagnosing autism at home.
+
             </p>
 
             <div class="news__img">
@@ -373,7 +368,7 @@
               <span class="news-date__txt">member</span>
             </div>
             <div class="news__title">
-              肖壮
+              Zhuang Xiao
             </div>
 
             <p class="news__txt">
@@ -396,7 +391,7 @@
               <span class="news-date__txt">member</span>
             </div>
             <div class="news__title">
-              徐步捷
+              Bujie Xu
             </div>
 
             <p class="news__txt">
@@ -417,7 +412,7 @@
               <span class="news-date__txt">leader</span>
             </div>
             <div class="news__title">
-              许逸涵
+              Yihan Xu
             </div>
 
             <p class="news__txt">
@@ -439,11 +434,11 @@
               <span class="news-date__txt">member</span>
             </div>
             <div class="news__title">
-              杨心怡
+              Xinyi Yang
             </div>
 
             <p class="news__txt">
-              My name is yang xinyi, a girl coming from Nanjing, China. I’m a student of Nanjing medical university,
+              My name is Yang Xinyi, a girl coming from Nanjing, China. I’m a student of Nanjing medical university,
               majoring in basic medical science. After learning knowledge of basic medical, I become interested in
               genetically engineered machine.
             </p>
@@ -461,7 +456,7 @@
               <span class="news-date__txt">leader</span>
             </div>
             <div class="news__title">
-              尹思梦
+              Simeng Yin
             </div>
 
             <p class="news__txt">
@@ -483,7 +478,7 @@
               <span class="news-date__txt">leader</span>
             </div>
             <div class="news__title">
-              赵林峰
+              Linfeng Zhao
             </div>
 
             <p class="news__txt">
@@ -542,11 +537,12 @@
       </symbol>
     </defs>
   </svg>
-  <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
-  <script src="./script.js"></script>
-
+    <script type="text/javascript" src="https://2020.igem.org/Template:NJMU-China/jquery?action=raw&ctype=text/javascript"></script>
+    <script  type="text/javascript" src="https://2020.igem.org/Template:NJMU-China/bootstrap?action=raw&ctype=text/javascript"></script>
+     
+    <script  type="text/javascript" src="https://2020.igem.org/Template:NJMU-China/swiper?action=raw&ctype=text/javascript">
+</script>
+    <script  type="text/javascript" src="https://2020.igem.org/Template:NJMU-China/Team?action=raw&ctype=text/javascript">
+</script>
 </body>
-
 </html>
