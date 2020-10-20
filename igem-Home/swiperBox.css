@@ -1,5 +1,5 @@
 
- @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
 * {
   box-sizing: border-box;
 }
@@ -182,13 +182,13 @@ a:hover{
   margin-bottom: 20px;
 }
 .blog-slider__text {
-  color: #000000;
+  color: #4e4a67;
   margin-bottom: 30px;
   line-height: 1.5em;
 }
 .blog-slider__button {
   display: inline-flex;
-  background-image: linear-gradient(90deg, rgba(19,246,255,1) 0%, rgba(115,247,255,1) 35%, rgba(0,137,254,0.8939950980392157) 100%);
+  background-image: linear-gradient(90deg, rgba(19,246,255,1) 0%, rgba(115,247,255,1) 35%, rgba(0,137,254,0.8939950980392157) 100%) !important;
   padding: 15px 35px;
   border-radius: 50px;
   color: #fff !important;
@@ -201,7 +201,7 @@ a:hover{
 }
 .blog-slider__button:hover{
   transform: scale(1.2) !important; 
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
 }
 @media screen and (max-width: 576px) {
   .blog-slider__button {
@@ -264,4 +264,3 @@ a:hover{
     width: 30px;
   }
 }
-

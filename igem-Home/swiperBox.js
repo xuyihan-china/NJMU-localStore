@@ -2,6 +2,8 @@ var swiper = new Swiper('.blog-slider', {
     spaceBetween: 30,
     effect: 'fade',
     loop: true,
+    autoplay:true, 
+    delay:1000,
     mousewheel: {
       invert: true,
     },
